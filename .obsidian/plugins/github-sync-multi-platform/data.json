@@ -1,0 +1,28 @@
+{
+  "syncEnabled": true,
+  "githubOwner": "bnxydx",
+  "githubRepo": "obsidian-",
+  "githubBranch": "master",
+  "githubToken": "***已隐藏***",
+  "lastSyncTime": 0,
+  "vault": "obsidian-",
+  "clipboardReadTip": "",
+  "syncData": {
+    "files": {
+      "408/计组.md": {
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "lastSync": 1780552445826,
+        "hash": "0"
+      },
+      "论文/clip/Untitled.md": {
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "lastSync": 1780552454444,
+        "hash": "0"
+      },
+      ".obsidian/sync-stats.json": {
+        "sha": "67bf62c5b2ca157a7709f57c1cc50830a3aa6083",
+        "lastSync": 1780548538546
+      }
+    }
+  }
+}

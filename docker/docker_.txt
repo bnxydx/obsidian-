@@ -1,0 +1,475 @@
+rose@rose-virtual-machine:~/桌面$ su root
+密码： 
+root@rose-virtual-machine:/home/rose/桌面# cd /etc/apt
+root@rose-virtual-machine:/etc/apt# ls
+apt.conf.d   keyrings       sources.list    trusted.gpg.d
+auth.conf.d  preferences.d  sources.list.d
+root@rose-virtual-machine:/etc/apt# cp /etc/apt/sources.list /etc/apt/sources.list.bak
+root@rose-virtual-machine:/etc/apt# ls
+apt.conf.d   keyrings       sources.list      sources.list.d
+auth.conf.d  preferences.d  sources.list.bak  trusted.gpg.d
+root@rose-virtual-machine:/etc/apt# vim /etc/apt/sources.list
+root@rose-virtual-machine:/etc/apt# vi /etc/apt/sources.list
+root@rose-virtual-machine:/etc/apt# apt update
+获取:1 http://mirrors.aliyun.com/ubuntu focal InRelease [265 kB]
+获取:2 http://mirrors.aliyun.com/ubuntu focal-security InRelease [128 kB]
+获取:3 http://mirrors.aliyun.com/ubuntu focal-updates InRelease [128 kB]
+获取:4 http://mirrors.aliyun.com/ubuntu focal-proposed InRelease [277 kB]
+获取:5 http://mirrors.aliyun.com/ubuntu focal-backports InRelease [128 kB]
+获取:6 http://mirrors.aliyun.com/ubuntu focal/restricted Sources [6,472 B]
+获取:7 http://mirrors.aliyun.com/ubuntu focal/main Sources [847 kB]
+获取:8 http://mirrors.aliyun.com/ubuntu focal/universe Sources [9,707 kB]
+获取:9 http://mirrors.aliyun.com/ubuntu focal/multiverse Sources [174 kB]                                                                                              
+获取:10 http://mirrors.aliyun.com/ubuntu focal/main i386 Packages [718 kB]                                                                                             
+获取:11 http://mirrors.aliyun.com/ubuntu focal/main amd64 Packages [970 kB]                                                                                            
+获取:12 http://mirrors.aliyun.com/ubuntu focal/main Translation-en [506 kB]                                                                                            
+获取:13 http://mirrors.aliyun.com/ubuntu focal/main Translation-zh_CN [113 kB]                                                                                         
+获取:14 http://mirrors.aliyun.com/ubuntu focal/main amd64 DEP-11 Metadata [494 kB]                                                                                     
+获取:15 http://mirrors.aliyun.com/ubuntu focal/main DEP-11 48x48 Icons [98.4 kB]                                                                                       
+获取:16 http://mirrors.aliyun.com/ubuntu focal/main DEP-11 64x64 Icons [163 kB]                                                                                        
+获取:17 http://mirrors.aliyun.com/ubuntu focal/main DEP-11 64x64@2 Icons [15.8 kB]                                                                                     
+获取:18 http://mirrors.aliyun.com/ubuntu focal/main amd64 c-n-f Metadata [29.5 kB]                                                                                     
+获取:19 http://mirrors.aliyun.com/ubuntu focal/restricted amd64 Packages [22.0 kB]                                                                                     
+获取:20 http://mirrors.aliyun.com/ubuntu focal/restricted i386 Packages [8,112 B]                                                                                      
+获取:21 http://mirrors.aliyun.com/ubuntu focal/restricted Translation-zh_CN [1,324 B]                                                                                  
+获取:22 http://mirrors.aliyun.com/ubuntu focal/restricted Translation-en [6,212 B]                                                                                     
+获取:23 http://mirrors.aliyun.com/ubuntu focal/restricted amd64 c-n-f Metadata [392 B]                                                                                 
+获取:24 http://mirrors.aliyun.com/ubuntu focal/universe amd64 Packages [8,628 kB]                                                                                      
+获取:25 http://mirrors.aliyun.com/ubuntu focal/universe i386 Packages [4,642 kB]                                                                                       
+获取:26 http://mirrors.aliyun.com/ubuntu focal/universe Translation-en [5,124 kB]                                                                                      
+获取:27 http://mirrors.aliyun.com/ubuntu focal/universe Translation-zh_CN [388 kB]                                                                                     
+获取:28 http://mirrors.aliyun.com/ubuntu focal/universe amd64 DEP-11 Metadata [3,603 kB]                                                                               
+获取:29 http://mirrors.aliyun.com/ubuntu focal/universe DEP-11 48x48 Icons [3,016 kB]                                                                                  
+获取:30 http://mirrors.aliyun.com/ubuntu focal/universe DEP-11 64x64 Icons [7,794 kB]                                                                                  
+获取:31 http://mirrors.aliyun.com/ubuntu focal/universe DEP-11 64x64@2 Icons [44.3 kB]                                                                                 
+获取:32 http://mirrors.aliyun.com/ubuntu focal/universe amd64 c-n-f Metadata [265 kB]                                                                                  
+获取:33 http://mirrors.aliyun.com/ubuntu focal/multiverse i386 Packages [74.7 kB]                                                                                      
+获取:34 http://mirrors.aliyun.com/ubuntu focal/multiverse amd64 Packages [144 kB]                                                                                      
+获取:35 http://mirrors.aliyun.com/ubuntu focal/multiverse Translation-en [104 kB]                                                                                      
+获取:36 http://mirrors.aliyun.com/ubuntu focal/multiverse Translation-zh_CN [4,612 B]                                                                                  
+获取:37 http://mirrors.aliyun.com/ubuntu focal/multiverse amd64 DEP-11 Metadata [48.4 kB]                                                                              
+获取:38 http://mirrors.aliyun.com/ubuntu focal/multiverse DEP-11 48x48 Icons [23.1 kB]                                                                                 
+获取:39 http://mirrors.aliyun.com/ubuntu focal/multiverse DEP-11 64x64 Icons [192 kB]                                                                                  
+获取:40 http://mirrors.aliyun.com/ubuntu focal/multiverse DEP-11 64x64@2 Icons [214 B]                                                                                 
+获取:41 http://mirrors.aliyun.com/ubuntu focal/multiverse amd64 c-n-f Metadata [9,136 B]                                                                               
+获取:42 http://mirrors.aliyun.com/ubuntu focal-security/restricted Sources [55.0 kB]                                                                                   
+获取:43 http://mirrors.aliyun.com/ubuntu focal-security/main Sources [319 kB]                                                                                          
+获取:44 http://mirrors.aliyun.com/ubuntu focal-security/universe Sources [238 kB]                                                                                      
+获取:45 http://mirrors.aliyun.com/ubuntu focal-security/multiverse Sources [17.1 kB]                                                                                   
+获取:46 http://mirrors.aliyun.com/ubuntu focal-security/main i386 Packages [775 kB]                                                                                    
+获取:47 http://mirrors.aliyun.com/ubuntu focal-security/main amd64 Packages [3,037 kB]                                                                                 
+获取:48 http://mirrors.aliyun.com/ubuntu focal-security/main Translation-en [454 kB]                                                                                   
+获取:49 http://mirrors.aliyun.com/ubuntu focal-security/main amd64 DEP-11 Metadata [65.3 kB]                                                                           
+获取:50 http://mirrors.aliyun.com/ubuntu focal-security/main DEP-11 48x48 Icons [24.2 kB]                                                                              
+获取:51 http://mirrors.aliyun.com/ubuntu focal-security/main DEP-11 64x64 Icons [42.9 kB]                                                                              
+获取:52 http://mirrors.aliyun.com/ubuntu focal-security/main DEP-11 64x64@2 Icons [29 B]                                                                               
+获取:53 http://mirrors.aliyun.com/ubuntu focal-security/main amd64 c-n-f Metadata [14.0 kB]                                                                            
+获取:54 http://mirrors.aliyun.com/ubuntu focal-security/restricted amd64 Packages [2,937 kB]                                                                           
+获取:55 http://mirrors.aliyun.com/ubuntu focal-security/restricted i386 Packages [38.1 kB]                                                                             
+获取:56 http://mirrors.aliyun.com/ubuntu focal-security/restricted Translation-en [411 kB]                                                                             
+获取:57 http://mirrors.aliyun.com/ubuntu focal-security/restricted amd64 DEP-11 Metadata [212 B]                                                                       
+获取:58 http://mirrors.aliyun.com/ubuntu focal-security/restricted DEP-11 48x48 Icons [29 B]                                                                           
+获取:59 http://mirrors.aliyun.com/ubuntu focal-security/restricted DEP-11 64x64 Icons [29 B]                                                                           
+获取:60 http://mirrors.aliyun.com/ubuntu focal-security/restricted DEP-11 64x64@2 Icons [29 B]                                                                         
+获取:61 http://mirrors.aliyun.com/ubuntu focal-security/restricted amd64 c-n-f Metadata [544 B]                                                                        
+获取:62 http://mirrors.aliyun.com/ubuntu focal-security/universe amd64 Packages [990 kB]                                                                               
+获取:63 http://mirrors.aliyun.com/ubuntu focal-security/universe i386 Packages [670 kB]                                                                                
+获取:64 http://mirrors.aliyun.com/ubuntu focal-security/universe Translation-en [210 kB]                                                                               
+获取:65 http://mirrors.aliyun.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [127 kB]                                                                        
+获取:66 http://mirrors.aliyun.com/ubuntu focal-security/universe DEP-11 48x48 Icons [61.1 kB]                                                                          
+获取:67 http://mirrors.aliyun.com/ubuntu focal-security/universe DEP-11 64x64 Icons [117 kB]                                                                           
+获取:68 http://mirrors.aliyun.com/ubuntu focal-security/universe DEP-11 64x64@2 Icons [29 B]                                                                           
+获取:69 http://mirrors.aliyun.com/ubuntu focal-security/universe amd64 c-n-f Metadata [20.9 kB]                                                                        
+获取:70 http://mirrors.aliyun.com/ubuntu focal-security/multiverse i386 Packages [7,204 B]                                                                             
+获取:71 http://mirrors.aliyun.com/ubuntu focal-security/multiverse amd64 Packages [24.8 kB]                                                                            
+获取:72 http://mirrors.aliyun.com/ubuntu focal-security/multiverse Translation-en [5,968 B]                                                                            
+获取:73 http://mirrors.aliyun.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [940 B]                                                                       
+获取:74 http://mirrors.aliyun.com/ubuntu focal-security/multiverse DEP-11 48x48 Icons [1,867 B]                                                                        
+获取:75 http://mirrors.aliyun.com/ubuntu focal-security/multiverse DEP-11 64x64 Icons [2,497 B]                                                                        
+获取:76 http://mirrors.aliyun.com/ubuntu focal-security/multiverse DEP-11 64x64@2 Icons [29 B]                                                                         
+获取:77 http://mirrors.aliyun.com/ubuntu focal-security/multiverse amd64 c-n-f Metadata [540 B]                                                                        
+获取:78 http://mirrors.aliyun.com/ubuntu focal-updates/universe Sources [393 kB]                                                                                       
+获取:79 http://mirrors.aliyun.com/ubuntu focal-updates/restricted Sources [55.1 kB]                                                                                    
+获取:80 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse Sources [27.6 kB]                                                                                    
+获取:81 http://mirrors.aliyun.com/ubuntu focal-updates/main Sources [594 kB]                                                                                           
+获取:82 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 Packages [3,410 kB]                                                                                  
+获取:83 http://mirrors.aliyun.com/ubuntu focal-updates/main i386 Packages [997 kB]                                                                                     
+获取:84 http://mirrors.aliyun.com/ubuntu focal-updates/main Translation-en [533 kB]                                                                                    
+获取:85 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [276 kB]                                                                             
+获取:86 http://mirrors.aliyun.com/ubuntu focal-updates/main DEP-11 48x48 Icons [63.9 kB]                                                                               
+获取:87 http://mirrors.aliyun.com/ubuntu focal-updates/main DEP-11 64x64 Icons [102 kB]                                                                                
+获取:88 http://mirrors.aliyun.com/ubuntu focal-updates/main DEP-11 64x64@2 Icons [29 B]                                                                                
+获取:89 http://mirrors.aliyun.com/ubuntu focal-updates/main amd64 c-n-f Metadata [17.7 kB]                                                                             
+获取:90 http://mirrors.aliyun.com/ubuntu focal-updates/restricted i386 Packages [39.4 kB]                                                                              
+获取:91 http://mirrors.aliyun.com/ubuntu focal-updates/restricted amd64 Packages [3,055 kB]                                                                            
+获取:92 http://mirrors.aliyun.com/ubuntu focal-updates/restricted Translation-en [427 kB]                                                                              
+获取:93 http://mirrors.aliyun.com/ubuntu focal-updates/restricted amd64 DEP-11 Metadata [212 B]                                                                        
+获取:94 http://mirrors.aliyun.com/ubuntu focal-updates/restricted DEP-11 48x48 Icons [29 B]                                                                            
+获取:95 http://mirrors.aliyun.com/ubuntu focal-updates/restricted DEP-11 64x64 Icons [29 B]                                                                            
+获取:96 http://mirrors.aliyun.com/ubuntu focal-updates/restricted DEP-11 64x64@2 Icons [29 B]                                                                          
+获取:97 http://mirrors.aliyun.com/ubuntu focal-updates/restricted amd64 c-n-f Metadata [540 B]                                                                         
+获取:98 http://mirrors.aliyun.com/ubuntu focal-updates/universe amd64 Packages [1,209 kB]                                                                              
+获取:99 http://mirrors.aliyun.com/ubuntu focal-updates/universe i386 Packages [796 kB]                                                                                 
+获取:100 http://mirrors.aliyun.com/ubuntu focal-updates/universe Translation-en [291 kB]                                                                               
+获取:101 http://mirrors.aliyun.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [444 kB]                                                                        
+获取:102 http://mirrors.aliyun.com/ubuntu focal-updates/universe DEP-11 48x48 Icons [294 kB]                                                                           
+获取:103 http://mirrors.aliyun.com/ubuntu focal-updates/universe DEP-11 64x64 Icons [516 kB]                                                                           
+获取:104 http://mirrors.aliyun.com/ubuntu focal-updates/universe DEP-11 64x64@2 Icons [29 B]                                                                           
+获取:105 http://mirrors.aliyun.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [27.5 kB]                                                                        
+获取:106 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse amd64 Packages [27.1 kB]                                                                            
+获取:107 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse i386 Packages [8,440 B]                                                                             
+获取:108 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse Translation-en [7,936 B]                                                                            
+获取:109 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [940 B]                                                                       
+获取:110 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse DEP-11 48x48 Icons [1,867 B]                                                                        
+获取:111 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse DEP-11 64x64 Icons [2,497 B]                                                                        
+获取:112 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse DEP-11 64x64@2 Icons [29 B]                                                                         
+获取:113 http://mirrors.aliyun.com/ubuntu focal-updates/multiverse amd64 c-n-f Metadata [616 B]                                                                        
+获取:114 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted Sources [19.9 kB]                                                                                  
+获取:115 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse Sources [1,948 B]                                                                                  
+获取:116 http://mirrors.aliyun.com/ubuntu focal-proposed/universe Sources [13.1 kB]                                                                                    
+获取:117 http://mirrors.aliyun.com/ubuntu focal-proposed/main Sources [59.3 kB]                                                                                        
+获取:118 http://mirrors.aliyun.com/ubuntu focal-proposed/main amd64 Packages [329 kB]                                                                                  
+获取:119 http://mirrors.aliyun.com/ubuntu focal-proposed/main i386 Packages [79.9 kB]                                                                                  
+获取:120 http://mirrors.aliyun.com/ubuntu focal-proposed/main Translation-en [66.6 kB]                                                                                 
+获取:121 http://mirrors.aliyun.com/ubuntu focal-proposed/main Translation-zh_CN [113 kB]                                                                               
+获取:122 http://mirrors.aliyun.com/ubuntu focal-proposed/main amd64 DEP-11 Metadata [2,248 B]                                                                          
+获取:123 http://mirrors.aliyun.com/ubuntu focal-proposed/main DEP-11 48x48 Icons [587 B]                                                                               
+获取:124 http://mirrors.aliyun.com/ubuntu focal-proposed/main DEP-11 64x64 Icons [3,678 B]                                                                             
+获取:125 http://mirrors.aliyun.com/ubuntu focal-proposed/main DEP-11 64x64@2 Icons [29 B]                                                                              
+获取:126 http://mirrors.aliyun.com/ubuntu focal-proposed/main amd64 c-n-f Metadata [1,900 B]                                                                           
+获取:127 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted amd64 Packages [448 kB]                                                                            
+获取:128 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted i386 Packages [1,524 B]                                                                            
+获取:129 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted Translation-en [61.8 kB]                                                                           
+获取:130 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted Translation-zh_CN [1,324 B]                                                                        
+获取:131 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted amd64 DEP-11 Metadata [212 B]                                                                      
+获取:132 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted DEP-11 48x48 Icons [29 B]                                                                          
+获取:133 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted DEP-11 64x64 Icons [29 B]                                                                          
+获取:134 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted DEP-11 64x64@2 Icons [29 B]                                                                        
+获取:135 http://mirrors.aliyun.com/ubuntu focal-proposed/restricted amd64 c-n-f Metadata [420 B]                                                                       
+获取:136 http://mirrors.aliyun.com/ubuntu focal-proposed/universe amd64 Packages [57.0 kB]                                                                             
+获取:137 http://mirrors.aliyun.com/ubuntu focal-proposed/universe i386 Packages [38.1 kB]                                                                              
+获取:138 http://mirrors.aliyun.com/ubuntu focal-proposed/universe Translation-en [28.4 kB]                                                                             
+获取:139 http://mirrors.aliyun.com/ubuntu focal-proposed/universe Translation-zh_CN [388 kB]                                                                           
+获取:140 http://mirrors.aliyun.com/ubuntu focal-proposed/universe amd64 DEP-11 Metadata [2,940 B]                                                                      
+获取:141 http://mirrors.aliyun.com/ubuntu focal-proposed/universe DEP-11 48x48 Icons [1,444 B]                                                                         
+获取:142 http://mirrors.aliyun.com/ubuntu focal-proposed/universe DEP-11 64x64 Icons [13.6 kB]                                                                         
+获取:143 http://mirrors.aliyun.com/ubuntu focal-proposed/universe DEP-11 64x64@2 Icons [29 B]                                                                          
+获取:144 http://mirrors.aliyun.com/ubuntu focal-proposed/universe amd64 c-n-f Metadata [3,072 B]                                                                       
+获取:145 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse i386 Packages [2,580 B]                                                                            
+获取:146 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse amd64 Packages [7,460 B]                                                                           
+获取:147 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse Translation-en [2,348 B]                                                                           
+获取:148 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse Translation-zh_CN [4,612 B]                                                                        
+获取:149 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse amd64 DEP-11 Metadata [212 B]                                                                      
+获取:150 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse DEP-11 48x48 Icons [29 B]                                                                          
+获取:151 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse DEP-11 64x64 Icons [29 B]                                                                          
+获取:152 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse DEP-11 64x64@2 Icons [29 B]                                                                        
+获取:153 http://mirrors.aliyun.com/ubuntu focal-proposed/multiverse amd64 c-n-f Metadata [312 B]                                                                       
+获取:154 http://mirrors.aliyun.com/ubuntu focal-backports/main Sources [9,604 B]                                                                                       
+获取:155 http://mirrors.aliyun.com/ubuntu focal-backports/universe Sources [10.5 kB]                                                                                   
+获取:156 http://mirrors.aliyun.com/ubuntu focal-backports/main i386 Packages [36.1 kB]                                                                                 
+获取:157 http://mirrors.aliyun.com/ubuntu focal-backports/main amd64 Packages [45.7 kB]                                                                                
+获取:158 http://mirrors.aliyun.com/ubuntu focal-backports/main Translation-en [16.3 kB]                                                                                
+获取:159 http://mirrors.aliyun.com/ubuntu focal-backports/main amd64 DEP-11 Metadata [7,980 B]                                                                         
+获取:160 http://mirrors.aliyun.com/ubuntu focal-backports/main DEP-11 48x48 Icons [7,156 B]                                                                            
+获取:161 http://mirrors.aliyun.com/ubuntu focal-backports/main DEP-11 64x64 Icons [10.7 kB]                                                                            
+获取:162 http://mirrors.aliyun.com/ubuntu focal-backports/main DEP-11 64x64@2 Icons [29 B]                                                                             
+获取:163 http://mirrors.aliyun.com/ubuntu focal-backports/main amd64 c-n-f Metadata [1,420 B]                                                                          
+获取:164 http://mirrors.aliyun.com/ubuntu focal-backports/restricted amd64 DEP-11 Metadata [212 B]                                                                     
+获取:165 http://mirrors.aliyun.com/ubuntu focal-backports/restricted DEP-11 48x48 Icons [29 B]                                                                         
+获取:166 http://mirrors.aliyun.com/ubuntu focal-backports/restricted DEP-11 64x64 Icons [29 B]                                                                         
+获取:167 http://mirrors.aliyun.com/ubuntu focal-backports/restricted DEP-11 64x64@2 Icons [29 B]                                                                       
+获取:168 http://mirrors.aliyun.com/ubuntu focal-backports/restricted amd64 c-n-f Metadata [116 B]                                                                      
+获取:169 http://mirrors.aliyun.com/ubuntu focal-backports/universe i386 Packages [13.8 kB]                                                                             
+获取:170 http://mirrors.aliyun.com/ubuntu focal-backports/universe amd64 Packages [25.0 kB]                                                                            
+获取:171 http://mirrors.aliyun.com/ubuntu focal-backports/universe Translation-en [16.3 kB]                                                                            
+获取:172 http://mirrors.aliyun.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [30.5 kB]                                                                     
+获取:173 http://mirrors.aliyun.com/ubuntu focal-backports/universe DEP-11 48x48 Icons [13.3 kB]                                                                        
+获取:174 http://mirrors.aliyun.com/ubuntu focal-backports/universe DEP-11 64x64 Icons [22.7 kB]                                                                        
+获取:175 http://mirrors.aliyun.com/ubuntu focal-backports/universe DEP-11 64x64@2 Icons [29 B]                                                                         
+获取:176 http://mirrors.aliyun.com/ubuntu focal-backports/universe amd64 c-n-f Metadata [880 B]                                                                        
+获取:177 http://mirrors.aliyun.com/ubuntu focal-backports/multiverse amd64 DEP-11 Metadata [212 B]                                                                     
+获取:178 http://mirrors.aliyun.com/ubuntu focal-backports/multiverse DEP-11 48x48 Icons [29 B]                                                                         
+获取:179 http://mirrors.aliyun.com/ubuntu focal-backports/multiverse DEP-11 64x64 Icons [29 B]                                                                         
+获取:180 http://mirrors.aliyun.com/ubuntu focal-backports/multiverse DEP-11 64x64@2 Icons [29 B]                                                                       
+获取:181 http://mirrors.aliyun.com/ubuntu focal-backports/multiverse amd64 c-n-f Metadata [116 B]                                                                      
+已下载 75.2 MB，耗时 2分 26秒 (515 kB/s)                                                                                                                               
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+有 483 个软件包可以升级。请执行 ‘apt list --upgradable’ 来查看它们。
+root@rose-virtual-machine:/etc/apt# apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+ca-certificates 已经是最新版 (20230311ubuntu0.20.04.1)。
+ca-certificates 已设置为手动安装。
+curl 已经是最新版 (7.68.0-1ubuntu2.22)。
+下列软件包是自动安装的并且现在不需要了：
+  gir1.2-goa-1.0
+使用'apt autoremove'来卸载它(它们)。
+将会同时安装下列软件：
+  dirmngr gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gpgv python3-software-properties software-properties-gtk
+  ubuntu-advantage-desktop-daemon ubuntu-advantage-tools ubuntu-pro-client
+建议安装：
+  tor parcimonie xloadimage scdaemon
+推荐安装：
+  ubuntu-pro-client-l10n
+下列【新】软件包将被安装：
+  apt-transport-https gnupg-agent ubuntu-advantage-desktop-daemon ubuntu-pro-client
+下列软件包将被升级：
+  dirmngr gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gpgv python3-software-properties software-properties-common
+  software-properties-gtk ubuntu-advantage-tools
+升级了 15 个软件包，新安装了 4 个软件包，要卸载 0 个软件包，有 468 个软件包未被升级。
+需要下载 223 kB/2,916 kB 的归档。
+解压缩后将会空出 1,605 kB 的空间。
+您希望继续执行吗？ [Y/n] y
+获取:1 http://mirrors.aliyun.com/ubuntu focal-proposed/main amd64 ubuntu-advantage-tools all 33~20.04 [11.0 kB]
+获取:2 http://mirrors.aliyun.com/ubuntu focal-proposed/main amd64 ubuntu-pro-client amd64 33~20.04 [210 kB]
+获取:3 http://mirrors.aliyun.com/ubuntu focal-updates/universe amd64 apt-transport-https all 2.0.10 [1,704 B]
+已下载 223 kB，耗时 1秒 (287 kB/s)        
+正在预设定软件包 ...
+(正在读取数据库 ... 系统当前共安装有 184566 个文件和目录。)
+准备解压 .../00-gpg-wks-client_2.2.19-3ubuntu2.2_amd64.deb  ...
+正在解压 gpg-wks-client (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../01-dirmngr_2.2.19-3ubuntu2.2_amd64.deb  ...
+正在解压 dirmngr (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../02-gpg-wks-server_2.2.19-3ubuntu2.2_amd64.deb  ...
+正在解压 gpg-wks-server (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../03-gnupg-utils_2.2.19-3ubuntu2.2_amd64.deb  ...
+正在解压 gnupg-utils (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../04-gpg-agent_2.2.19-3ubuntu2.2_amd64.deb  ...
+正在解压 gpg-agent (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../05-gpg_2.2.19-3ubuntu2.2_amd64.deb  ...
+正在解压 gpg (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../06-gpgconf_2.2.19-3ubuntu2.2_amd64.deb  ...
+正在解压 gpgconf (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../07-gnupg-l10n_2.2.19-3ubuntu2.2_all.deb  ...
+正在解压 gnupg-l10n (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../08-gnupg_2.2.19-3ubuntu2.2_all.deb  ...
+正在解压 gnupg (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../09-gpgsm_2.2.19-3ubuntu2.2_amd64.deb  ...
+正在解压 gpgsm (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+准备解压 .../10-gpgv_2.2.19-3ubuntu2.2_amd64.deb  ...
+正在解压 gpgv (2.2.19-3ubuntu2.2) 并覆盖 (2.2.19-3ubuntu2.1) ...
+正在设置 gpgv (2.2.19-3ubuntu2.2) ...
+(正在读取数据库 ... 系统当前共安装有 184566 个文件和目录。)
+准备解压 .../0-ubuntu-advantage-tools_33~20.04_all.deb  ...
+正在解压 ubuntu-advantage-tools (33~20.04) 并覆盖 (27.6~20.04.1) ...
+dpkg: 警告: 无法删除原有的目录 /var/lib/ubuntu-advantage ：目录非空
+dpkg: 警告: 无法删除原有的目录 /etc/ubuntu-advantage ：目录非空
+正在选中未选择的软件包 ubuntu-pro-client。
+准备解压 .../1-ubuntu-pro-client_33~20.04_amd64.deb  ...
+正在解压 ubuntu-pro-client (33~20.04) ...
+正在选中未选择的软件包 apt-transport-https。
+准备解压 .../2-apt-transport-https_2.0.10_all.deb  ...
+正在解压 apt-transport-https (2.0.10) ...
+正在选中未选择的软件包 gnupg-agent。
+准备解压 .../3-gnupg-agent_2.2.19-3ubuntu2.2_all.deb  ...
+正在解压 gnupg-agent (2.2.19-3ubuntu2.2) ...
+准备解压 .../4-software-properties-common_0.99.9.12_all.deb  ...
+正在解压 software-properties-common (0.99.9.12) 并覆盖 (0.99.9.8) ...
+正在选中未选择的软件包 ubuntu-advantage-desktop-daemon。
+准备解压 .../5-ubuntu-advantage-desktop-daemon_1.10~20.04.1_amd64.deb  ...
+正在解压 ubuntu-advantage-desktop-daemon (1.10~20.04.1) ...
+准备解压 .../6-software-properties-gtk_0.99.9.12_all.deb  ...
+正在解压 software-properties-gtk (0.99.9.12) 并覆盖 (0.99.9.8) ...
+准备解压 .../7-python3-software-properties_0.99.9.12_all.deb  ...
+正在解压 python3-software-properties (0.99.9.12) 并覆盖 (0.99.9.8) ...
+正在设置 apt-transport-https (2.0.10) ...
+正在设置 gnupg-l10n (2.2.19-3ubuntu2.2) ...
+正在设置 gpgconf (2.2.19-3ubuntu2.2) ...
+正在设置 ubuntu-pro-client (33~20.04) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/ubuntu-advantage.service → /lib/systemd/system/ubuntu-advantage.service.
+正在设置 gpg (2.2.19-3ubuntu2.2) ...
+正在设置 gnupg-utils (2.2.19-3ubuntu2.2) ...
+正在设置 gpg-agent (2.2.19-3ubuntu2.2) ...
+正在设置 gpgsm (2.2.19-3ubuntu2.2) ...
+正在设置 dirmngr (2.2.19-3ubuntu2.2) ...
+正在设置 python3-software-properties (0.99.9.12) ...
+正在设置 gnupg-agent (2.2.19-3ubuntu2.2) ...
+正在设置 gpg-wks-server (2.2.19-3ubuntu2.2) ...
+正在设置 ubuntu-advantage-tools (33~20.04) ...
+Removing obsolete conffile /etc/update-motd.d/88-esm-announce ...
+Removing obsolete conffile /etc/ubuntu-advantage/help_data.yaml ...
+正在设置 ubuntu-advantage-desktop-daemon (1.10~20.04.1) ...
+ubuntu-advantage-desktop-daemon.service is a disabled or a static unit, not starting it.
+正在设置 gpg-wks-client (2.2.19-3ubuntu2.2) ...
+正在设置 software-properties-common (0.99.9.12) ...
+正在设置 gnupg (2.2.19-3ubuntu2.2) ...
+正在设置 software-properties-gtk (0.99.9.12) ...
+正在处理用于 dbus (1.12.16-2ubuntu2.1) 的触发器 ...
+正在处理用于 shared-mime-info (1.15-1) 的触发器 ...
+正在处理用于 install-info (6.7.0.dfsg.2-5) 的触发器 ...
+正在处理用于 desktop-file-utils (0.24-1ubuntu3) 的触发器 ...
+正在处理用于 mime-support (3.64ubuntu1) 的触发器 ...
+正在处理用于 hicolor-icon-theme (0.17-2) 的触发器 ...
+正在处理用于 gnome-menus (3.36.0-1ubuntu1) 的触发器 ...
+正在处理用于 libglib2.0-0:amd64 (2.64.6-1~ubuntu20.04.4) 的触发器 ...
+正在处理用于 man-db (2.9.1-1) 的触发器 ...
+root@rose-virtual-machine:/etc/apt# curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+OK
+root@rose-virtual-machine:/etc/apt# add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
+命中:1 http://mirrors.aliyun.com/ubuntu focal InRelease
+命中:2 http://mirrors.aliyun.com/ubuntu focal-security InRelease
+命中:3 http://mirrors.aliyun.com/ubuntu focal-updates InRelease
+获取:4 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal InRelease [57.7 kB]
+命中:5 http://mirrors.aliyun.com/ubuntu focal-proposed InRelease                 
+命中:6 http://mirrors.aliyun.com/ubuntu focal-backports InRelease
+获取:7 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal/stable amd64 Packages [46.4 kB]
+已下载 104 kB，耗时 1秒 (105 kB/s) 
+正在读取软件包列表... 完成
+root@rose-virtual-machine:/etc/apt# apt-get update
+命中:1 http://mirrors.aliyun.com/ubuntu focal InRelease
+命中:2 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal InRelease
+命中:3 http://mirrors.aliyun.com/ubuntu focal-security InRelease
+命中:4 http://mirrors.aliyun.com/ubuntu focal-updates InRelease
+命中:5 http://mirrors.aliyun.com/ubuntu focal-proposed InRelease
+命中:6 http://mirrors.aliyun.com/ubuntu focal-backports InRelease
+正在读取软件包列表... 完成                          
+root@rose-virtual-machine:/etc/apt# apt-get install docker-ce docker-ce-cli containerd.io
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+下列软件包是自动安装的并且现在不需要了：
+  gir1.2-goa-1.0
+使用'apt autoremove'来卸载它(它们)。
+将会同时安装下列软件：
+  docker-buildx-plugin docker-ce-rootless-extras docker-compose-plugin git git-man liberror-perl pigz slirp4netns
+建议安装：
+  aufs-tools cgroupfs-mount | cgroup-lite git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+下列【新】软件包将被安装：
+  containerd.io docker-buildx-plugin docker-ce docker-ce-cli docker-ce-rootless-extras docker-compose-plugin git git-man liberror-perl pigz slirp4netns
+升级了 0 个软件包，新安装了 11 个软件包，要卸载 0 个软件包，有 468 个软件包未被升级。
+需要下载 128 MB 的归档。
+解压缩后会消耗 475 MB 的额外空间。
+您希望继续执行吗？ [Y/n] y
+获取:1 http://mirrors.aliyun.com/ubuntu focal/universe amd64 pigz amd64 2.4-1 [57.4 kB]
+获取:2 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal/stable amd64 containerd.io amd64 1.7.18-1 [30.5 MB]
+获取:3 http://mirrors.aliyun.com/ubuntu focal/main amd64 liberror-perl all 0.17029-1 [26.5 kB]
+获取:4 http://mirrors.aliyun.com/ubuntu focal-security/main amd64 git-man all 1:2.25.1-1ubuntu3.13 [887 kB]
+获取:5 http://mirrors.aliyun.com/ubuntu focal-security/main amd64 git amd64 1:2.25.1-1ubuntu3.13 [4,612 kB]
+获取:6 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal/stable amd64 docker-buildx-plugin amd64 0.15.1-1~ubuntu.20.04~focal [29.8 MB]
+获取:7 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal/stable amd64 docker-ce-cli amd64 5:27.0.3-1~ubuntu.20.04~focal [14.6 MB]
+获取:8 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal/stable amd64 docker-ce amd64 5:27.0.3-1~ubuntu.20.04~focal [25.3 MB]                                   
+获取:9 http://mirrors.aliyun.com/ubuntu focal/universe amd64 slirp4netns amd64 0.4.3-1 [74.3 kB]                                                                       
+获取:10 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal/stable amd64 docker-ce-rootless-extras amd64 5:27.0.3-1~ubuntu.20.04~focal [9,327 kB]                 
+获取:11 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal/stable amd64 docker-compose-plugin amd64 2.28.1-1~ubuntu.20.04~focal [12.5 MB]                        
+已下载 128 MB，耗时 12秒 (10.9 MB/s)                                                                                                                                   
+正在选中未选择的软件包 pigz。
+(正在读取数据库 ... 系统当前共安装有 184762 个文件和目录。)
+准备解压 .../00-pigz_2.4-1_amd64.deb  ...
+正在解压 pigz (2.4-1) ...
+正在选中未选择的软件包 containerd.io。
+准备解压 .../01-containerd.io_1.7.18-1_amd64.deb  ...
+正在解压 containerd.io (1.7.18-1) ...
+正在选中未选择的软件包 docker-buildx-plugin。
+准备解压 .../02-docker-buildx-plugin_0.15.1-1~ubuntu.20.04~focal_amd64.deb  ...
+正在解压 docker-buildx-plugin (0.15.1-1~ubuntu.20.04~focal) ...
+正在选中未选择的软件包 docker-ce-cli。
+准备解压 .../03-docker-ce-cli_5%3a27.0.3-1~ubuntu.20.04~focal_amd64.deb  ...
+正在解压 docker-ce-cli (5:27.0.3-1~ubuntu.20.04~focal) ...
+正在选中未选择的软件包 docker-ce。
+准备解压 .../04-docker-ce_5%3a27.0.3-1~ubuntu.20.04~focal_amd64.deb  ...
+正在解压 docker-ce (5:27.0.3-1~ubuntu.20.04~focal) ...
+正在选中未选择的软件包 docker-ce-rootless-extras。
+准备解压 .../05-docker-ce-rootless-extras_5%3a27.0.3-1~ubuntu.20.04~focal_amd64.deb  ...
+正在解压 docker-ce-rootless-extras (5:27.0.3-1~ubuntu.20.04~focal) ...
+正在选中未选择的软件包 docker-compose-plugin。
+准备解压 .../06-docker-compose-plugin_2.28.1-1~ubuntu.20.04~focal_amd64.deb  ...
+正在解压 docker-compose-plugin (2.28.1-1~ubuntu.20.04~focal) ...
+正在选中未选择的软件包 liberror-perl。
+准备解压 .../07-liberror-perl_0.17029-1_all.deb  ...
+正在解压 liberror-perl (0.17029-1) ...
+正在选中未选择的软件包 git-man。
+准备解压 .../08-git-man_1%3a2.25.1-1ubuntu3.13_all.deb  ...
+正在解压 git-man (1:2.25.1-1ubuntu3.13) ...
+正在选中未选择的软件包 git。
+准备解压 .../09-git_1%3a2.25.1-1ubuntu3.13_amd64.deb  ...
+正在解压 git (1:2.25.1-1ubuntu3.13) ...
+正在选中未选择的软件包 slirp4netns。
+准备解压 .../10-slirp4netns_0.4.3-1_amd64.deb  ...
+正在解压 slirp4netns (0.4.3-1) ...
+正在设置 slirp4netns (0.4.3-1) ...
+正在设置 liberror-perl (0.17029-1) ...
+正在设置 docker-buildx-plugin (0.15.1-1~ubuntu.20.04~focal) ...
+正在设置 containerd.io (1.7.18-1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.
+正在设置 docker-compose-plugin (2.28.1-1~ubuntu.20.04~focal) ...
+正在设置 docker-ce-cli (5:27.0.3-1~ubuntu.20.04~focal) ...
+正在设置 pigz (2.4-1) ...
+正在设置 git-man (1:2.25.1-1ubuntu3.13) ...
+正在设置 docker-ce-rootless-extras (5:27.0.3-1~ubuntu.20.04~focal) ...
+正在设置 docker-ce (5:27.0.3-1~ubuntu.20.04~focal) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+正在设置 git (1:2.25.1-1ubuntu3.13) ...
+正在处理用于 man-db (2.9.1-1) 的触发器 ...
+正在处理用于 systemd (245.4-4ubuntu3.15) 的触发器 ...
+root@rose-virtual-machine:/etc/apt# systemctl start docker
+root@rose-virtual-machine:/etc/apt# systemctl enable docker
+Synchronizing state of docker.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable docker
+root@rose-virtual-machine:/etc/apt# docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+c1ec31eb5944: Retrying in 1 second c1ec31eb5944: Retrying in 1 second 
+docker: error pulling image configuration: download failed after attempts=6: dial tcp 104.244.43.57:443: connect: connection refused.
+See 'docker run --help'.
+root@rose-virtual-machine:/etc/apt# docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+c1ec31eb5944: Retrying in 1 second 
+docker: error pulling image configuration: download failed after attempts=6: dial tcp 108.160.165.173:443: connect: connection refused.
+See 'docker run --help'.
+root@rose-virtual-machine:/etc/apt# curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+OK
+root@rose-virtual-machine:/etc/apt# sudo add-apt-repository \
+> "deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/ubuntu \
+> $(lsb_release -cs) \
+> stable"
+命中:1 http://mirrors.aliyun.com/ubuntu focal InRelease
+命中:2 https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu focal InRelease
+命中:3 http://mirrors.aliyun.com/ubuntu focal-security InRelease
+命中:4 http://mirrors.aliyun.com/ubuntu focal-updates InRelease
+命中:5 http://mirrors.aliyun.com/ubuntu focal-proposed InRelease
+命中:6 http://mirrors.aliyun.com/ubuntu focal-backports InRelease
+获取:7 https://mirrors.aliyun.com/docker-ce/linux/ubuntu focal InRelease [57.7 kB]
+获取:8 https://mirrors.aliyun.com/docker-ce/linux/ubuntu focal/stable amd64 Packages [46.4 kB]
+已下载 104 kB，耗时 2秒 (54.5 kB/s)
+正在读取软件包列表... 完成
+root@rose-virtual-machine:/etc/apt# docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+c1ec31eb5944: Pulling fs layer 
+^Cdocker: context canceled.
+See 'docker run --help'.
+root@rose-virtual-machine:/etc/apt# apt-get install docker-ce docker-ce-cli containerd.io
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+containerd.io 已经是最新版 (1.7.18-1)。
+docker-ce-cli 已经是最新版 (5:27.0.3-1~ubuntu.20.04~focal)。
+docker-ce 已经是最新版 (5:27.0.3-1~ubuntu.20.04~focal)。
+下列软件包是自动安装的并且现在不需要了：
+  gir1.2-goa-1.0
+使用'apt autoremove'来卸载它(它们)。
+升级了 0 个软件包，新安装了 0 个软件包，要卸载 0 个软件包，有 468 个软件包未被升级。
+root@rose-virtual-machine:/etc/apt# docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+c1ec31eb5944: Pulling fs layer 
+^Cdocker: context canceled.
+See 'docker run --help'.
+root@rose-virtual-machine:/etc/apt# systemctl start docker
+root@rose-virtual-machine:/etc/apt# systemctl enable docker
+Synchronizing state of docker.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable docker
+root@rose-virtual-machine:/etc/apt# docker run hello-world
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+c1ec31eb5944: Pulling fs layer 
+^Cdocker: context canceled.
+See 'docker run --help'.
+root@rose-virtual-machine:/etc/apt# docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+root@rose-virtual-machine:/etc/apt# 
