@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780583239635-onl51vqyt",
+  "providerId": "claude",
+  "title": "Explain AI model identity",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780583239636,
+  "updatedAt": 1780584034359,
+  "lastResponseAt": 1780584034359,
+  "sessionId": "0ae50f08-cf48-4264-aef6-6c4ca3b5fd42",
+  "providerState": {
+    "providerSessionId": "0ae50f08-cf48-4264-aef6-6c4ca3b5fd42",
+    "previousProviderSessionIds": [
+      "76639675-bf0e-49cc-a71b-dceb28dd5606"
+    ]
+  },
+  "usage": {
+    "model": "glm-4.5-air",
+    "inputTokens": 196,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30164,
+    "contextWindow": 200000,
+    "contextTokens": 30360,
+    "percentage": 15,
+    "contextWindowIsAuthoritative": true
+  }
+}
