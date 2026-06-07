@@ -1,0 +1,9 @@
+body {
+  --text-normal: #b0b0b0;
+  --bold-color: #ff6b6b;
+  --bold-weight: 700;
+}
+mark {
+  color: #e0c060;
+  background: transparent;
+}

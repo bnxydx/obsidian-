@@ -1,4 +1,8 @@
 {
   "theme": "obsidian",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "dim-text"
+  ]
 }
