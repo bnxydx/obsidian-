@@ -4,5 +4,6 @@
   "useMarkdownLinks": true,
   "newFileFolderPath": "",
   "promptDelete": false,
-  "livePreview": true
+  "livePreview": true,
+  "readableLineLength": true
 }
