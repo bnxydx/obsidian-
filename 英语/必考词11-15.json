@@ -1,0 +1,1942 @@
+{
+  "source": "必考词11-15",
+  "totalWords": 381,
+  "unitCount": 5,
+  "units": [
+    {
+      "unit": 11,
+      "count": 77,
+      "words": [
+        {
+          "word": "addict",
+          "pos": "vt.",
+          "meaning": "使沉溺，使上瘾；n. 有瘾的人"
+        },
+        {
+          "word": "add",
+          "pos": "v.",
+          "meaning": "(to) 加，增加；补充说，又说"
+        },
+        {
+          "word": "addition",
+          "pos": "n.",
+          "meaning": "(增)加，加法；增加的人或物"
+        },
+        {
+          "word": "additional",
+          "pos": "adj.",
+          "meaning": "附加的，另外的，额外的"
+        },
+        {
+          "word": "address",
+          "pos": "n.",
+          "meaning": "演说；地址，住址；vt. 向…作(正式)讲话，对…说话；称呼；对付，处理"
+        },
+        {
+          "word": "adequate",
+          "pos": "adj.",
+          "meaning": "足够的，充分的；恰当的"
+        },
+        {
+          "word": "adjust",
+          "pos": "v.",
+          "meaning": "调节，调整；校正；适应"
+        },
+        {
+          "word": "administration",
+          "pos": "n.",
+          "meaning": "管理，经营；政府，行政(机关)"
+        },
+        {
+          "word": "admire",
+          "pos": "vt.",
+          "meaning": "钦佩，羡慕；夸奖"
+        },
+        {
+          "word": "admission",
+          "pos": "n.",
+          "meaning": "允许进入，接纳；承认；入场券，入场费"
+        },
+        {
+          "word": "admit",
+          "pos": "v.",
+          "meaning": "让…进入，接纳；承认"
+        },
+        {
+          "word": "adapt",
+          "pos": "v.",
+          "meaning": "(使)适应；改编"
+        },
+        {
+          "word": "adopt",
+          "pos": "vt.",
+          "meaning": "采用，采纳；正式通过，批准；继承；收养"
+        },
+        {
+          "word": "adult",
+          "pos": "adj.",
+          "meaning": "成年人的，成熟的；n. 成(年)人"
+        },
+        {
+          "word": "brace",
+          "pos": "v.",
+          "meaning": "支撑，加固；使绷紧；使防备，使做好准备，使经受锻炼；n. 托架，支架"
+        },
+        {
+          "word": "brain",
+          "pos": "n.",
+          "meaning": "大脑；脑力，头脑，智能"
+        },
+        {
+          "word": "branch",
+          "pos": "n.",
+          "meaning": "(树)枝，分支；分部，分店；(学科)分科，部门；支流，支脉"
+        },
+        {
+          "word": "brand",
+          "pos": "n.",
+          "meaning": "商标，标记，牌子；vt. 打印，打烙印；使铭记"
+        },
+        {
+          "word": "toss",
+          "pos": "v.",
+          "meaning": "扔，抛，掷；摇摆，颠簸"
+        },
+        {
+          "word": "total",
+          "pos": "n.",
+          "meaning": "总数，总计；adj. 总的，全部的，完全的；v. 总计，合计，总共"
+        },
+        {
+          "word": "touch",
+          "pos": "v.",
+          "meaning": "触，碰，摸；感动，触动；涉及，论及；n. 触动，碰到，触摸；少许，一点儿"
+        },
+        {
+          "word": "tough",
+          "pos": "adj.",
+          "meaning": "坚韧的，牢固的；强壮的，吃苦耐劳的；强硬的，顽固的；艰苦的，棘手的；粗暴的，粗鲁的"
+        },
+        {
+          "word": "treat",
+          "pos": "vt.",
+          "meaning": "对待，处理，治疗；论述，探讨；款待，请客；n. 款待，请客"
+        },
+        {
+          "word": "treaty",
+          "pos": "n.",
+          "meaning": "(国家之间的)条约，协定"
+        },
+        {
+          "word": "trend",
+          "pos": "n.",
+          "meaning": "倾向，趋势；时髦，时尚"
+        },
+        {
+          "word": "vice",
+          "pos": "n.",
+          "meaning": "不道德行为，恶习；台钳，老虎钳；adj. 副的"
+        },
+        {
+          "word": "vicious",
+          "pos": "adj.",
+          "meaning": "邪恶的，恶毒的，凶残的，堕落的"
+        },
+        {
+          "word": "victim",
+          "pos": "n.",
+          "meaning": "牺牲品，受害者"
+        },
+        {
+          "word": "click",
+          "pos": "v.",
+          "meaning": "发出咔嗒声；很快成为好朋友；为(某人)所喜爱；突然明白或理解；n. 咔嗒声；【僻】v. 点击"
+        },
+        {
+          "word": "client",
+          "pos": "n.",
+          "meaning": "顾客；(诉讼)委托人；当事人"
+        },
+        {
+          "word": "cling",
+          "pos": "v.",
+          "meaning": "坚持；粘着；依附"
+        },
+        {
+          "word": "close",
+          "pos": "v.",
+          "meaning": "关，闭；结束，终止；n. 结束，了结；adv. 接近地，紧密地；adj. (to) 近的，接近的；势均力敌的；仔细的，详细的；严密的，紧密的"
+        },
+        {
+          "word": "closet",
+          "pos": "n.",
+          "meaning": "壁橱，储藏室；adj. 秘密的；v. 把某人关在房间里(作私人会晤)"
+        },
+        {
+          "word": "code",
+          "pos": "n.",
+          "meaning": "代码，密码；法典，法规，法则"
+        },
+        {
+          "word": "personal",
+          "pos": "adj.",
+          "meaning": "个人的，私人的；人身的，涉及个人的；亲自的，本人的"
+        },
+        {
+          "word": "personality",
+          "pos": "n.",
+          "meaning": "人格，个性"
+        },
+        {
+          "word": "personnel",
+          "pos": "n.",
+          "meaning": "全体人员，全体职员；人事(部门)"
+        },
+        {
+          "word": "form",
+          "pos": "n.",
+          "meaning": "形状，形式；表格"
+        },
+        {
+          "word": "formal",
+          "pos": "adj.",
+          "meaning": "正式的；形式的"
+        },
+        {
+          "word": "format",
+          "pos": "n.",
+          "meaning": "设计，安排，样式"
+        },
+        {
+          "word": "formation",
+          "pos": "n.",
+          "meaning": "形成，构成"
+        },
+        {
+          "word": "former",
+          "pos": "adj.",
+          "meaning": "以前的，在前的；pron. 前者"
+        },
+        {
+          "word": "formidable",
+          "pos": "adj.",
+          "meaning": "令人敬畏的，可怕的；引起恐惧或不安的；难以应付的，难以克服的"
+        },
+        {
+          "word": "formula",
+          "pos": "n.",
+          "meaning": "公式，程式"
+        },
+        {
+          "word": "formulate",
+          "pos": "vt.",
+          "meaning": "规划(制度等)，构想出(计划、方法等)；系统地阐述；用公式表示"
+        },
+        {
+          "word": "fortunate",
+          "pos": "adj.",
+          "meaning": "幸运的，侥幸的"
+        },
+        {
+          "word": "fortune",
+          "pos": "n.",
+          "meaning": "命运，运气；财产"
+        },
+        {
+          "word": "guide",
+          "pos": "n.",
+          "meaning": "导游，向导，指导者；指南；入门；手册；路标；v. 指引，指导"
+        },
+        {
+          "word": "guidance",
+          "pos": "n.",
+          "meaning": "引导，指导"
+        },
+        {
+          "word": "guideline",
+          "pos": "n.",
+          "meaning": "指导方针；指导原则；准则；参考"
+        },
+        {
+          "word": "guild",
+          "pos": "n.",
+          "meaning": "(行业)协会；(中世纪的)行会，同业公会"
+        },
+        {
+          "word": "guilt",
+          "pos": "n.",
+          "meaning": "罪责，内疚"
+        },
+        {
+          "word": "guilty",
+          "pos": "adj.",
+          "meaning": "(of) 有罪的；内疚的"
+        },
+        {
+          "word": "recognition",
+          "pos": "n.",
+          "meaning": "认出，辨认；承认"
+        },
+        {
+          "word": "recognize",
+          "pos": "v.",
+          "meaning": "认出，识别；承认，认可；明白，认识到"
+        },
+        {
+          "word": "recommend",
+          "pos": "vt.",
+          "meaning": "推荐；称赞；劝告，建议"
+        },
+        {
+          "word": "recover",
+          "pos": "v.",
+          "meaning": "追回，重新得到；恢复，康复"
+        },
+        {
+          "word": "recovery",
+          "pos": "n.",
+          "meaning": "恢复，痊愈；重获"
+        },
+        {
+          "word": "recruit",
+          "pos": "v.",
+          "meaning": "招募(新兵)，招收(新成员)；n. 新兵，新成员"
+        },
+        {
+          "word": "sell",
+          "pos": "v.",
+          "meaning": "出让，转让；出售，售卖；n. 让人失望的东西"
+        },
+        {
+          "word": "send",
+          "pos": "v.",
+          "meaning": "发送，传达，转致；派遣，打发，安排去；使快速移动；使做出(某种反应)；使表现出(某种行为)"
+        },
+        {
+          "word": "senior",
+          "pos": "adj.",
+          "meaning": "年长的；资格老的，地位较高的；(比赛)成人的；高水平的；n. (大学)四年级学生，毕业班学生；较年长的人；上级，上司"
+        },
+        {
+          "word": "smart",
+          "pos": "adj.",
+          "meaning": "聪明的，伶俐的；有力的，猛烈的；帅气的，整齐的，漂亮的，时髦的；v. (使)剧痛，(使)刺痛"
+        },
+        {
+          "word": "smell",
+          "pos": "n.",
+          "meaning": "气味，臭味；嗅觉；v. 嗅，闻到；有某种气味"
+        },
+        {
+          "word": "soak",
+          "pos": "v.",
+          "meaning": "湿透，浸湿，浸泡；渗透，渗入"
+        },
+        {
+          "word": "soar",
+          "pos": "vi.",
+          "meaning": "高飞，翱翔；耸立；飞涨；猛增，剧增；n. 高飞范围；高涨程度"
+        },
+        {
+          "word": "sociable",
+          "pos": "adj.",
+          "meaning": "好交际的，友善的，合群的；n. 联谊会，联欢会"
+        },
+        {
+          "word": "social",
+          "pos": "adj.",
+          "meaning": "社会的；交际的"
+        },
+        {
+          "word": "socialism",
+          "pos": "n.",
+          "meaning": "社会主义"
+        },
+        {
+          "word": "society",
+          "pos": "n.",
+          "meaning": "社会；社团，协会；社交界"
+        },
+        {
+          "word": "sociology",
+          "pos": "n.",
+          "meaning": "社会学"
+        },
+        {
+          "word": "soluble",
+          "pos": "adj.",
+          "meaning": "可溶的"
+        },
+        {
+          "word": "solution",
+          "pos": "n.",
+          "meaning": "解答，解决办法；溶液，溶解"
+        },
+        {
+          "word": "solve",
+          "pos": "vt.",
+          "meaning": "解答，解决"
+        },
+        {
+          "word": "detach",
+          "pos": "vt.",
+          "meaning": "拆卸；(from) 使分开，使分离"
+        },
+        {
+          "word": "detail",
+          "pos": "n.",
+          "meaning": "细节，详情；vt. 详述"
+        },
+        {
+          "word": "detain",
+          "pos": "vt.",
+          "meaning": "拘留，扣押；留住，耽搁"
+        }
+      ]
+    },
+    {
+      "unit": 12,
+      "count": 76,
+      "words": [
+        {
+          "word": "shadow",
+          "pos": "n.",
+          "meaning": "影子，阴影；暗处，阴暗；虚幻的事物，失去实质的事物；形影不离的(物)"
+        },
+        {
+          "word": "shade",
+          "pos": "n.",
+          "meaning": "荫，荫凉处；遮光物，灯罩；v. 为…遮阳，荫蔽；画阴影；使变暗"
+        },
+        {
+          "word": "sort",
+          "pos": "n.",
+          "meaning": "种类，类别；v. 分类，整理"
+        },
+        {
+          "word": "soul",
+          "pos": "n.",
+          "meaning": "(人类整体的)精神(状况)，精；(某种类型的)人；灵魂，心灵，心性"
+        },
+        {
+          "word": "sound",
+          "pos": "adj.",
+          "meaning": "健康的，健全的，完好的；可靠的，牢固的；正确的，明智的；彻底的，充分的；n. 声音，响声"
+        },
+        {
+          "word": "sour",
+          "pos": "adj.",
+          "meaning": "酸的，酸味的；【僻】adj. 易怒的，尖酸刻薄的"
+        },
+        {
+          "word": "source",
+          "pos": "n.",
+          "meaning": "河流的源头，发源地；来源，出处"
+        },
+        {
+          "word": "advance",
+          "pos": "v.",
+          "meaning": "使向前移动；促进；提出(建议等)，提高(重要性、价格等)；使(未来事件)提前发生；(作为赊借)预先发放；n. 前进，进展；增长，增加；预先提供，预付"
+        },
+        {
+          "word": "advanced",
+          "pos": "adj.",
+          "meaning": "高级的，先进的"
+        },
+        {
+          "word": "advantage",
+          "pos": "n.",
+          "meaning": "有利条件，优点；(尤指采取某一步骤而带来的)好处，利益"
+        },
+        {
+          "word": "advice",
+          "pos": "n.",
+          "meaning": "劝告，忠告，意见"
+        },
+        {
+          "word": "advise",
+          "pos": "v.",
+          "meaning": "劝(忠)告；建议；通知"
+        },
+        {
+          "word": "advisable",
+          "pos": "adj.",
+          "meaning": "可取的，适当的"
+        },
+        {
+          "word": "advocate",
+          "pos": "vt.",
+          "meaning": "拥护，提倡，主张；n. 拥护者，提倡者，鼓吹者"
+        },
+        {
+          "word": "aesthetic",
+          "pos": "adj.",
+          "meaning": "美学的，艺术的，审美的"
+        },
+        {
+          "word": "affair",
+          "pos": "n.",
+          "meaning": "事情，事件；(pl.) 事务"
+        },
+        {
+          "word": "affect",
+          "pos": "v.",
+          "meaning": "影响；(悲伤的)感觉，感动"
+        },
+        {
+          "word": "affection",
+          "pos": "n.",
+          "meaning": "爱，喜爱；爱慕之情，感情"
+        },
+        {
+          "word": "affiliate",
+          "pos": "v.",
+          "meaning": "使隶属(或附属)于，使成为会员；n. 成员，附属机构，分公司"
+        },
+        {
+          "word": "affirm",
+          "pos": "vt.",
+          "meaning": "断言，肯定；(在法庭上)证实，宣誓说实话"
+        },
+        {
+          "word": "afford",
+          "pos": "v.",
+          "meaning": "担负得起，买得起，花得起(时间)；供给，给予"
+        },
+        {
+          "word": "breach",
+          "pos": "n.",
+          "meaning": "违反(法规、协议、职责等)；破坏，中断；裂口，缺口；v. (在防御工事等上)打开缺口；违反，违背"
+        },
+        {
+          "word": "break",
+          "pos": "v.",
+          "meaning": "打破，折断，弄坏；使中止，打断；破坏，违反；n. 打断，中止；【僻】n. 休息时间"
+        },
+        {
+          "word": "breakdown",
+          "pos": "n.",
+          "meaning": "倒塌，损坏，故障；垮掉，衰竭"
+        },
+        {
+          "word": "breed",
+          "pos": "v.",
+          "meaning": "养育，培育；(使)繁殖；酿成，产生"
+        },
+        {
+          "word": "brevity",
+          "pos": "n.",
+          "meaning": "简洁，简炼；短暂"
+        },
+        {
+          "word": "coincide",
+          "pos": "vi.",
+          "meaning": "(with) 相符，相一致；同时发生"
+        },
+        {
+          "word": "collapse",
+          "pos": "vi.",
+          "meaning": "倒坍，崩溃，瓦解；(因精疲力竭等原因)倒下，(健康等)垮掉；突然失去价值，暴跌；n. 倒塌，崩溃，瓦解"
+        },
+        {
+          "word": "colleague",
+          "pos": "n.",
+          "meaning": "同事，同僚，同盟"
+        },
+        {
+          "word": "collect",
+          "pos": "v.",
+          "meaning": "收集，搜集；领取，接走；收(税等)；聚集，堆积"
+        },
+        {
+          "word": "collection",
+          "pos": "n.",
+          "meaning": "收藏(品)，收集(物)"
+        },
+        {
+          "word": "collective",
+          "pos": "n.",
+          "meaning": "集体；adj. 集体的，共同的"
+        },
+        {
+          "word": "collide",
+          "pos": "vi.",
+          "meaning": "碰撞，互撞；冲突，抵触"
+        },
+        {
+          "word": "column",
+          "pos": "n.",
+          "meaning": "圆柱，柱状物；列；(报刊中的)专栏"
+        },
+        {
+          "word": "combat",
+          "pos": "n.",
+          "meaning": "/v. 战斗，搏斗"
+        },
+        {
+          "word": "combine",
+          "pos": "v.",
+          "meaning": "(with) (使)结合，(使)化合"
+        },
+        {
+          "word": "command",
+          "pos": "n.",
+          "meaning": "命令，指令；统帅，指挥(权)；掌握，运用能力；v. 命令；指挥，统帅"
+        },
+        {
+          "word": "commend",
+          "pos": "vt.",
+          "meaning": "表扬，称赞；托付，委托"
+        },
+        {
+          "word": "comment",
+          "pos": "n.",
+          "meaning": "评论，意见；vi. (on/about) 发表意见，评论"
+        },
+        {
+          "word": "commerce",
+          "pos": "n.",
+          "meaning": "商业，贸易"
+        },
+        {
+          "word": "commercial",
+          "pos": "adj.",
+          "meaning": "商业的，贸易的"
+        },
+        {
+          "word": "commission",
+          "pos": "n.",
+          "meaning": "委员会；委任，委托(书)，代办；佣金，手续费"
+        },
+        {
+          "word": "commit",
+          "pos": "vt.",
+          "meaning": "把…交托给，提交；犯(错误)，干(坏事)"
+        },
+        {
+          "word": "committee",
+          "pos": "n.",
+          "meaning": "委员会，全体委员"
+        },
+        {
+          "word": "commodity",
+          "pos": "n.",
+          "meaning": "商品，物品"
+        },
+        {
+          "word": "common",
+          "pos": "adj.",
+          "meaning": "普通的，常见的；共同的，公共的；n. (in) 公用，公有；公用草地"
+        },
+        {
+          "word": "communicate",
+          "pos": "v.",
+          "meaning": "传达，表达；交流；通讯，通话"
+        },
+        {
+          "word": "communication",
+          "pos": "n.",
+          "meaning": "通讯，传达，交流；通讯系统；交通(工具)"
+        },
+        {
+          "word": "communism",
+          "pos": "n.",
+          "meaning": "共产主义，共产主义学说，共产主义制度"
+        },
+        {
+          "word": "community",
+          "pos": "n.",
+          "meaning": "社区，同一地区的全体居民；共同体"
+        },
+        {
+          "word": "detect",
+          "pos": "vt.",
+          "meaning": "探测，检测，测出；察觉，发现，查明"
+        },
+        {
+          "word": "deter",
+          "pos": "v.",
+          "meaning": "阻挠，阻止；威慑，使不敢"
+        },
+        {
+          "word": "deteriorate",
+          "pos": "v.",
+          "meaning": "(使)恶化，(使)退化"
+        },
+        {
+          "word": "determine",
+          "pos": "v.",
+          "meaning": "决定，决心；确定，限定"
+        },
+        {
+          "word": "develop",
+          "pos": "v.",
+          "meaning": "发展，开发；(照)冲洗，显影；发育，生长"
+        },
+        {
+          "word": "device",
+          "pos": "n.",
+          "meaning": "装置，设备；方法"
+        },
+        {
+          "word": "devise",
+          "pos": "vt.",
+          "meaning": "设计，发明"
+        },
+        {
+          "word": "ensure",
+          "pos": "vt.",
+          "meaning": "确保，保证，担保；保证给予"
+        },
+        {
+          "word": "entail",
+          "pos": "vt.",
+          "meaning": "使(某事物)必要，牵涉，需要，带来，引起；限定(地产)继承人；n. (地产的)限定继承"
+        },
+        {
+          "word": "indeed",
+          "pos": "adv.",
+          "meaning": "确实，实在；真正地"
+        },
+        {
+          "word": "independence",
+          "pos": "n.",
+          "meaning": "独立，自主"
+        },
+        {
+          "word": "independent",
+          "pos": "adj.",
+          "meaning": "独立的，自主的；私营的；无党派的"
+        },
+        {
+          "word": "index",
+          "pos": "n.",
+          "meaning": "索引；指标，标志；指数；v. 附以索引，编入索引"
+        },
+        {
+          "word": "mere",
+          "pos": "adj.",
+          "meaning": "仅仅的，只不过；纯粹的；极不重要的"
+        },
+        {
+          "word": "merely",
+          "pos": "adv.",
+          "meaning": "仅，只，不过"
+        },
+        {
+          "word": "plausible",
+          "pos": "adj.",
+          "meaning": "(论点等)貌似有理的，(说法等)似乎有道理的；花言巧语的，(指人)能说会道的(尤指行骗)"
+        },
+        {
+          "word": "plea",
+          "pos": "n.",
+          "meaning": "恳求，请求；答辩，辩护；辩解，托词，借口"
+        },
+        {
+          "word": "plead",
+          "pos": "v.",
+          "meaning": "恳求，请求；答辩，辩护；以…为理由，以…为借口(尤指因未做某事或做错某事)"
+        },
+        {
+          "word": "plot",
+          "pos": "v.",
+          "meaning": "(plotted, plotting) 绘制，标绘；密谋，策划；n. 小块土地；情节；阴谋，秘密计划"
+        },
+        {
+          "word": "policy",
+          "pos": "n.",
+          "meaning": "政策，方针"
+        },
+        {
+          "word": "polite",
+          "pos": "adj.",
+          "meaning": "有礼貌的，客气的；有教养的，文雅的"
+        },
+        {
+          "word": "political",
+          "pos": "adj.",
+          "meaning": "政治的"
+        },
+        {
+          "word": "politician",
+          "pos": "n.",
+          "meaning": "政治家，政客"
+        },
+        {
+          "word": "politics",
+          "pos": "n.",
+          "meaning": "政治，政治学；政纲，政见"
+        },
+        {
+          "word": "poll",
+          "pos": "n.",
+          "meaning": "民意测验；投票，投票结果；(pl.) 政治选举，大选；v. 对…进行民意测验；获得(选票)"
+        },
+        {
+          "word": "ponder",
+          "pos": "v.",
+          "meaning": "沉思，考虑；衡量，估量；回想，回顾"
+        }
+      ]
+    },
+    {
+      "unit": 13,
+      "count": 77,
+      "words": [
+        {
+          "word": "beam",
+          "pos": "n.",
+          "meaning": "(光线的)束，柱；(横)梁，桁条；v. 微笑；发光，照射"
+        },
+        {
+          "word": "become",
+          "pos": "v.",
+          "meaning": "成为，变得；适宜，同……相称；使(人)显得漂亮，使好看"
+        },
+        {
+          "word": "deprive",
+          "pos": "vt.",
+          "meaning": "剥夺，使丧失"
+        },
+        {
+          "word": "derive",
+          "pos": "v.",
+          "meaning": "取得，得到；追溯……的起源(或来由)"
+        },
+        {
+          "word": "describe",
+          "pos": "vt.",
+          "meaning": "形容，描述"
+        },
+        {
+          "word": "description",
+          "pos": "n.",
+          "meaning": "描述，形容；种类，类型"
+        },
+        {
+          "word": "deserve",
+          "pos": "vt.",
+          "meaning": "值得，应得"
+        },
+        {
+          "word": "design",
+          "pos": "v.",
+          "meaning": "设计，绘制；n. 设计；图样"
+        },
+        {
+          "word": "designate",
+          "pos": "vt.",
+          "meaning": "指明，标明；指定，指派"
+        },
+        {
+          "word": "desirable",
+          "pos": "adj.",
+          "meaning": "称心的，合意的"
+        },
+        {
+          "word": "desire",
+          "pos": "vt.",
+          "meaning": "希望，渴望；n. 愿望，欲望，要求"
+        },
+        {
+          "word": "flaw",
+          "pos": "n.",
+          "meaning": "裂缝；缺陷，缺点"
+        },
+        {
+          "word": "flexible",
+          "pos": "adj.",
+          "meaning": "柔韧的；易弯曲的；可变通的"
+        },
+        {
+          "word": "fling",
+          "pos": "v.",
+          "meaning": "(用力)扔，掷，抛，丢"
+        },
+        {
+          "word": "flourish",
+          "pos": "n.",
+          "meaning": "流畅的曲线；炫耀；v. 茂盛，繁荣，兴旺；挥舞，舞动；炫耀"
+        },
+        {
+          "word": "grow",
+          "pos": "v.",
+          "meaning": "成为；增长；生长，成长；种植，栽种"
+        },
+        {
+          "word": "grown-up",
+          "pos": "adj.",
+          "meaning": "成熟的，成人的；n. 成年人"
+        },
+        {
+          "word": "growth",
+          "pos": "n.",
+          "meaning": "生长，增长，发展"
+        },
+        {
+          "word": "hinder",
+          "pos": "v.",
+          "meaning": "妨碍，阻止；adj. 后面的，后部的"
+        },
+        {
+          "word": "hint",
+          "pos": "n.",
+          "meaning": "暗示；建议；线索，细微的迹象；v. (to) 暗示，示意"
+        },
+        {
+          "word": "hitherto",
+          "pos": "adv.",
+          "meaning": "到目前为止，迄今"
+        },
+        {
+          "word": "impact",
+          "pos": "n.",
+          "meaning": "冲击，撞击；影响，作用；vt. 压紧；对某事物有影响"
+        },
+        {
+          "word": "impair",
+          "pos": "vt.",
+          "meaning": "削弱，减少；损害，损伤"
+        },
+        {
+          "word": "impart",
+          "pos": "vt.",
+          "meaning": "给予，传授；告知，透露"
+        },
+        {
+          "word": "implement",
+          "pos": "vt.",
+          "meaning": "实施，执行，贯彻；n. 工具"
+        },
+        {
+          "word": "implication",
+          "pos": "n.",
+          "meaning": "含意，暗示"
+        },
+        {
+          "word": "implicit",
+          "pos": "adj.",
+          "meaning": "(in) 不明确的，含蓄的；无疑问的，绝对的"
+        },
+        {
+          "word": "imply",
+          "pos": "vt.",
+          "meaning": "意指，意味着，暗示"
+        },
+        {
+          "word": "import",
+          "pos": "v.",
+          "meaning": "进口，输入；n. 进口，输入；进口商品，进口物资；重要性，含意，意思"
+        },
+        {
+          "word": "importance",
+          "pos": "n.",
+          "meaning": "重要(性)，重大"
+        },
+        {
+          "word": "important",
+          "pos": "adj.",
+          "meaning": "重要的，重大的；有权力的"
+        },
+        {
+          "word": "impose",
+          "pos": "v.",
+          "meaning": "(on, upon) 征(税)，加(负担、惩罚等)于；把…强加于；利用，占便宜"
+        },
+        {
+          "word": "impress",
+          "pos": "v.",
+          "meaning": "(on) 印，盖印；留下印象；使钦佩；铭记；n. 压痕，印记"
+        },
+        {
+          "word": "impression",
+          "pos": "n.",
+          "meaning": "印象，感想；压印，压痕；滑稽模仿；印次，印数"
+        },
+        {
+          "word": "impressive",
+          "pos": "adj.",
+          "meaning": "给人深刻印象的，感人的"
+        },
+        {
+          "word": "improve",
+          "pos": "v.",
+          "meaning": "改善，增进，提高"
+        },
+        {
+          "word": "impulse",
+          "pos": "n.",
+          "meaning": "推动力，驱动；冲动，一时的念头；脉冲"
+        },
+        {
+          "word": "limit",
+          "pos": "n.",
+          "meaning": "界限，限度，范围；v. 限制，限定"
+        },
+        {
+          "word": "limitation",
+          "pos": "n.",
+          "meaning": "限制，局限性"
+        },
+        {
+          "word": "limited",
+          "pos": "adj.",
+          "meaning": "有限的，被限制的；(企业等)有限责任的"
+        },
+        {
+          "word": "origin",
+          "pos": "n.",
+          "meaning": "起源，由来；(pl.) 出身，血统"
+        },
+        {
+          "word": "original",
+          "pos": "adj.",
+          "meaning": "最初的，原始的，原先的；新颖的，有独创性的；n. 原物，原作，原文"
+        },
+        {
+          "word": "originate",
+          "pos": "v.",
+          "meaning": "发源，产生，引起；开创，发明"
+        },
+        {
+          "word": "petition",
+          "pos": "n.",
+          "meaning": "请愿，请愿书；(向法院递交的)申请书；正式的请求；v. 向…请愿；正式请求，要求"
+        },
+        {
+          "word": "phase",
+          "pos": "n.",
+          "meaning": "阶段，时期；相，相位"
+        },
+        {
+          "word": "phenomenon",
+          "pos": "n.",
+          "meaning": "现象；非凡的人、物或事"
+        },
+        {
+          "word": "philosopher",
+          "pos": "n.",
+          "meaning": "哲学家，哲人"
+        },
+        {
+          "word": "philosophy",
+          "pos": "n.",
+          "meaning": "哲学"
+        },
+        {
+          "word": "phrase",
+          "pos": "n.",
+          "meaning": "短语，词语，习语"
+        },
+        {
+          "word": "physical",
+          "pos": "adj.",
+          "meaning": "自然科学的，物理的；肉体的，身体的；物质的，有形的"
+        },
+        {
+          "word": "physician",
+          "pos": "n.",
+          "meaning": "医师，内科医生"
+        },
+        {
+          "word": "pierce",
+          "pos": "vt.",
+          "meaning": "刺入，刺穿，穿透；(以目光、洞察等)看透，识破"
+        },
+        {
+          "word": "corporate",
+          "pos": "adj.",
+          "meaning": "公司的，社团的；组成公司(或团体)的，法人的；全体的，共同的"
+        },
+        {
+          "word": "corporation",
+          "pos": "n.",
+          "meaning": "公司；法人，法人团体"
+        },
+        {
+          "word": "reason",
+          "pos": "v.",
+          "meaning": "(out) 推理，推论；(with) 说服，评理；讨论，辩论；n. 理由，原因；道理；理性，理智"
+        },
+        {
+          "word": "reasonable",
+          "pos": "adj.",
+          "meaning": "合理的，有道理的，通情达理的"
+        },
+        {
+          "word": "recent",
+          "pos": "adj.",
+          "meaning": "新近的，近来的"
+        },
+        {
+          "word": "serve",
+          "pos": "v.",
+          "meaning": "服务，履行职责；接待顾客；有，起…作用；满足，符合"
+        },
+        {
+          "word": "servant",
+          "pos": "n.",
+          "meaning": "仆人，佣人，佣工；雇员；忠于某人的人"
+        },
+        {
+          "word": "service",
+          "pos": "n.",
+          "meaning": "服务，帮助；公共设施，公共事业；维修，保养；行政部门，服务机构；vt. 维修，保养"
+        },
+        {
+          "word": "set",
+          "pos": "v.",
+          "meaning": "放置；确定，决定；树立；创造；校正，调整；落山，下沉；adj. 约定的，规定的，指定的；固定不变的，习惯的；n. 一套，一副，一组；电气(或电子)器械"
+        },
+        {
+          "word": "setback",
+          "pos": "n.",
+          "meaning": "挫折，退步；(病的)复发；延迟，阻碍"
+        },
+        {
+          "word": "setting",
+          "pos": "n.",
+          "meaning": "安置，安装；环境，背景"
+        },
+        {
+          "word": "settle",
+          "pos": "vi.",
+          "meaning": "安定，安顿；停息，定居；解决，调停"
+        },
+        {
+          "word": "settlement",
+          "pos": "n.",
+          "meaning": "解决，调停，协议；移民地，新住宅区；【僻】n. 定居点"
+        },
+        {
+          "word": "several",
+          "pos": "pron.",
+          "meaning": "几个，数个，一些；adj. 各自的；分别的"
+        },
+        {
+          "word": "severe",
+          "pos": "adj.",
+          "meaning": "严厉的，严格的；剧烈的，严重的"
+        },
+        {
+          "word": "shape",
+          "pos": "n.",
+          "meaning": "形状，外形；体形，身段；(尤指健康)状况；种类；v. 使成形，塑造；形成，决定"
+        },
+        {
+          "word": "share",
+          "pos": "n.",
+          "meaning": "一份，份额，一部分；股份；v. 分享，分担；合用；均分，分摊；分配"
+        },
+        {
+          "word": "sharp",
+          "pos": "adj.",
+          "meaning": "锋利的，锐利的；轮廓分明的，鲜明的；急转的，突然的；刺耳的；敏锐的，机警的；adv. 准时地"
+        },
+        {
+          "word": "shelter",
+          "pos": "v.",
+          "meaning": "掩蔽，庇护，为……提供避难所；躲避，避难；替自己找借口；n. 掩蔽处，躲避处；掩蔽，保护"
+        },
+        {
+          "word": "sophisticated",
+          "pos": "adj.",
+          "meaning": "老于世故的，老练的；复杂的；精密的；尖端的，高度发展的"
+        },
+        {
+          "word": "sovereign",
+          "pos": "n.",
+          "meaning": "君主，统治者，元首；adj. 至高无上的，君主的；独立自主的，完全的"
+        },
+        {
+          "word": "sow",
+          "pos": "vt.",
+          "meaning": "播种；传播；激起"
+        },
+        {
+          "word": "toll",
+          "pos": "n.",
+          "meaning": "通行税(费)；代价；损失；钟声；v. 鸣钟(特指宣布死亡)"
+        },
+        {
+          "word": "tone",
+          "pos": "n.",
+          "meaning": "调(子)，风格，氛围；腔调，语气，声调"
+        },
+        {
+          "word": "topic",
+          "pos": "n.",
+          "meaning": "话题，主题，题目"
+        }
+      ]
+    },
+    {
+      "unit": 14,
+      "count": 72,
+      "words": [
+        {
+          "word": "perform",
+          "pos": "v.",
+          "meaning": "演奏，演出，表演；做，执行，完成；工作，表现"
+        },
+        {
+          "word": "performance",
+          "pos": "n.",
+          "meaning": "执行，履行，做；表演，演出；演技；表现；行为；业绩"
+        },
+        {
+          "word": "period",
+          "pos": "n.",
+          "meaning": "周期，一段时间；时期，时代；学时，课时；句点，句号"
+        },
+        {
+          "word": "periodical",
+          "pos": "adj.",
+          "meaning": "周期的，定期的；n. (学术)期刊，杂志"
+        },
+        {
+          "word": "perish",
+          "pos": "v.",
+          "meaning": "死亡，丧生；毁灭，消亡；(食物等)腐败，腐烂；(物质或材料)老化，脆裂"
+        },
+        {
+          "word": "perpetual",
+          "pos": "adj.",
+          "meaning": "永恒的；反复的；没完没了的"
+        },
+        {
+          "word": "perplex",
+          "pos": "vt.",
+          "meaning": "使困惑，使茫然；使复杂化，使难办"
+        },
+        {
+          "word": "perspective",
+          "pos": "n.",
+          "meaning": "观点，看法；判断力，洞察力；透视画法，透视图；远景，景观"
+        },
+        {
+          "word": "pessimistic",
+          "pos": "adj.",
+          "meaning": "悲观(主义)的"
+        },
+        {
+          "word": "optimistic",
+          "pos": "adj.",
+          "meaning": "乐观的，乐观主义的"
+        },
+        {
+          "word": "optimum",
+          "pos": "adj.",
+          "meaning": "最适宜的，最有利的"
+        },
+        {
+          "word": "option",
+          "pos": "n.",
+          "meaning": "选项，选择；可选择的事物；选择权；买卖的特权，买卖选择权；选修课"
+        },
+        {
+          "word": "optional",
+          "pos": "adj.",
+          "meaning": "可以任选的，非强制的；选修的"
+        },
+        {
+          "word": "organ",
+          "pos": "n.",
+          "meaning": "(官方的)机构，机关；(人体或动植物的)器官；风琴，管风琴"
+        },
+        {
+          "word": "organic",
+          "pos": "adj.",
+          "meaning": "器官的，器质性的；有机物的；生物的；有机的，绿色的；(变化或发展)逐渐的，自然的"
+        },
+        {
+          "word": "organism",
+          "pos": "n.",
+          "meaning": "生物(体)，有机体；(尤指)微生物；有机组织，有机体系"
+        },
+        {
+          "word": "organization",
+          "pos": "n.",
+          "meaning": "团体，机构；组织；组织性，系统性"
+        },
+        {
+          "word": "organize",
+          "pos": "vt.",
+          "meaning": "组织，筹备；整理，使有条理；安排，分配；规划，管理"
+        },
+        {
+          "word": "enhance",
+          "pos": "vt.",
+          "meaning": "提高(价格、质量、吸引力等)，增加，增强"
+        },
+        {
+          "word": "enlarge",
+          "pos": "v.",
+          "meaning": "扩大，放大，增大；扩展，扩充"
+        },
+        {
+          "word": "enlighten",
+          "pos": "vt.",
+          "meaning": "启发，使摆脱偏见(或迷信)；教育，使获得教益"
+        },
+        {
+          "word": "rake",
+          "pos": "n.",
+          "meaning": "(长柄)耙，耙机，耙状物；放荡的人，浪子，流氓；v. 耙，梳理；大量搜索，翻检；【僻】v. (~in) 赚大钱"
+        },
+        {
+          "word": "rare",
+          "pos": "adj.",
+          "meaning": "稀少的，珍贵的；稀薄的，稀疏的"
+        },
+        {
+          "word": "rarely",
+          "pos": "adv.",
+          "meaning": "很少，难得，非常地"
+        },
+        {
+          "word": "rate",
+          "pos": "n.",
+          "meaning": "比率，率；速率，速度；(税收、利息的)费率；价格，费用；等级，品级；v. 评估，估价；定级，列为"
+        },
+        {
+          "word": "ratio",
+          "pos": "n.",
+          "meaning": "比，比率；比例"
+        },
+        {
+          "word": "rational",
+          "pos": "adj.",
+          "meaning": "理性的，合理的"
+        },
+        {
+          "word": "reach",
+          "pos": "v.",
+          "meaning": "抵达，到达；(out) 伸手，够到，触到；n. 能达到的范围；影响范围；波及范围"
+        },
+        {
+          "word": "react",
+          "pos": "vi.",
+          "meaning": "反应，起作用"
+        },
+        {
+          "word": "realistic",
+          "pos": "adj.",
+          "meaning": "现实(主义)的；明智的；能实现的"
+        },
+        {
+          "word": "reality",
+          "pos": "n.",
+          "meaning": "现实，实际(情况)；真实的事物，事实"
+        },
+        {
+          "word": "realize",
+          "pos": "vt.",
+          "meaning": "认识到，了解到；理解，领会；实现，将……变为现实"
+        },
+        {
+          "word": "select",
+          "pos": "vt.",
+          "meaning": "选择，挑选，选拔；(在计算机屏幕上)选定，选取；adj. 精选的，选择的，优等的；一流的，只为富人(或上层人士)而设的"
+        },
+        {
+          "word": "selection",
+          "pos": "n.",
+          "meaning": "选择，挑选，选拔；精选物，选集；入选者"
+        },
+        {
+          "word": "sense",
+          "pos": "n.",
+          "meaning": "感觉，感官，官能；观念，意识；判断力，鉴赏力；见识，智慧；道理，合理性；意义，含义；v. 感觉到，觉察到，意识到"
+        },
+        {
+          "word": "sensation",
+          "pos": "n.",
+          "meaning": "(身体上的)感觉，知觉；感觉能力，知觉能力；激动；轰动，轰动一时的事情"
+        },
+        {
+          "word": "sensible",
+          "pos": "adj.",
+          "meaning": "明智的，合情理的；可注意到的，明显的"
+        },
+        {
+          "word": "sensitive",
+          "pos": "adj.",
+          "meaning": "敏感的；易受伤害的；艺术感觉好的；灵敏的，灵敏度高的；体贴的，善解人意的"
+        },
+        {
+          "word": "separate",
+          "pos": "adj.",
+          "meaning": "分开的，分离的；单独的；不同的；不相关的；v. 把……分开，隔开"
+        },
+        {
+          "word": "sequence",
+          "pos": "n.",
+          "meaning": "先后，次序，连续；一系列，一连串"
+        },
+        {
+          "word": "serial",
+          "pos": "adj.",
+          "meaning": "连续的；连续播出的，连载的；顺序排列的；n. 连载小说，连续剧；定期刊物"
+        },
+        {
+          "word": "series",
+          "pos": "n.",
+          "meaning": "连续，一系列"
+        },
+        {
+          "word": "serious",
+          "pos": "adj.",
+          "meaning": "严肃的，庄重的；严重的，危险的；认真的"
+        },
+        {
+          "word": "toast",
+          "pos": "n.",
+          "meaning": "烤面包，吐司；祝酒(词)，干杯；v. 烘，烤；向……祝酒"
+        },
+        {
+          "word": "together",
+          "pos": "adv.",
+          "meaning": "共同，一起；合起来，集拢地"
+        },
+        {
+          "word": "token",
+          "pos": "n.",
+          "meaning": "表示，标志，象征，证明，信物；纪念品；礼券，代价券，筹码，专用辅币；adj. 象征性的"
+        },
+        {
+          "word": "tolerance",
+          "pos": "n.",
+          "meaning": "容忍，耐性"
+        },
+        {
+          "word": "tolerant",
+          "pos": "adj.",
+          "meaning": "容忍的，宽容的"
+        },
+        {
+          "word": "tolerate",
+          "pos": "vt.",
+          "meaning": "容忍，默许"
+        },
+        {
+          "word": "accumulate",
+          "pos": "v.",
+          "meaning": "积累，积攒，积聚"
+        },
+        {
+          "word": "accuracy",
+          "pos": "n.",
+          "meaning": "准确性"
+        },
+        {
+          "word": "accurate",
+          "pos": "adj.",
+          "meaning": "准确的，正确无误的"
+        },
+        {
+          "word": "accuse",
+          "pos": "vt.",
+          "meaning": "(of) 指控，指责"
+        },
+        {
+          "word": "achieve",
+          "pos": "v.",
+          "meaning": "(凭长期努力)达到(某目标、地位、标准)；完成，成功"
+        },
+        {
+          "word": "acknowledge",
+          "pos": "vt.",
+          "meaning": "承认，供认；对……表示感谢"
+        },
+        {
+          "word": "cheer",
+          "pos": "v.",
+          "meaning": "喝彩，欢呼；鼓舞，鼓励；n. 喝彩(声)，欢呼(声)"
+        },
+        {
+          "word": "chemical",
+          "pos": "adj.",
+          "meaning": "化学的，关于化学的；用化学方法的；n. 化学制品，化学药品"
+        },
+        {
+          "word": "cherish",
+          "pos": "vt.",
+          "meaning": "珍爱，珍视；爱护，关心；抱有，怀有(希望、想法、感情等)"
+        },
+        {
+          "word": "chip",
+          "pos": "v.",
+          "meaning": "打破；切削(某物)；n. (土豆等的)薄片；碎屑；集成电路块"
+        },
+        {
+          "word": "choice",
+          "pos": "n.",
+          "meaning": "选择(机会)，挑选；供选择的种类，选择项；入选者，精华；adj. 精选的，优质的"
+        },
+        {
+          "word": "choose",
+          "pos": "v.",
+          "meaning": "选择，挑选；喜欢，愿意"
+        },
+        {
+          "word": "board",
+          "pos": "n.",
+          "meaning": "板，木板；理事会，委员会，董事会；伙食；膳食费用；v. 上船(车，飞机)"
+        },
+        {
+          "word": "boast",
+          "pos": "n.",
+          "meaning": "自吹自擂，自夸的话；引以自豪的事物(或原因)；v. (of, about) 自吹自擂，夸耀，吹嘘；以拥有…而自豪；有，包含"
+        },
+        {
+          "word": "bonus",
+          "pos": "n.",
+          "meaning": "奖金，红利，补贴；额外的好处，意外收获"
+        },
+        {
+          "word": "boom",
+          "pos": "n.",
+          "meaning": "低沉有回响的声音；(经济、工商业等)繁荣期，迅速发展；(城镇等的)兴起；v. 暴涨，激增；迅速发展，繁荣；发出隆隆声"
+        },
+        {
+          "word": "boost",
+          "pos": "v.",
+          "meaning": "往上推；增加，提高；n. 增加；帮助，鼓励"
+        },
+        {
+          "word": "verbal",
+          "pos": "adj.",
+          "meaning": "用言辞的，用文字的；口头的；动词的"
+        },
+        {
+          "word": "verdict",
+          "pos": "n.",
+          "meaning": "判断，裁定；(on) 定论，意见"
+        },
+        {
+          "word": "verify",
+          "pos": "vt.",
+          "meaning": "证明，证实；查对，查清"
+        },
+        {
+          "word": "verse",
+          "pos": "n.",
+          "meaning": "韵文，诗；诗节，诗句"
+        },
+        {
+          "word": "version",
+          "pos": "n.",
+          "meaning": "型(式)，版本；变化形式；译文，译本；翻译；说法，看法"
+        },
+        {
+          "word": "vessel",
+          "pos": "n.",
+          "meaning": "船，舰；容器，器皿；管，血管"
+        }
+      ]
+    },
+    {
+      "unit": 15,
+      "count": 79,
+      "words": [
+        {
+          "word": "holy",
+          "pos": "adj.",
+          "meaning": "神圣的，圣洁的"
+        },
+        {
+          "word": "honor",
+          "pos": "n.",
+          "meaning": "尊敬，敬意；荣誉，光荣；荣幸，使感到光荣的人或事；vt. 尊敬，给以荣誉"
+        },
+        {
+          "word": "honorable",
+          "pos": "adj.",
+          "meaning": "尊敬的，高尚的；荣誉的，光荣的"
+        },
+        {
+          "word": "horizon",
+          "pos": "n.",
+          "meaning": "地平(线)；(知识、思想、经验、阅历、兴趣等的)范围，眼界，见识"
+        },
+        {
+          "word": "horizontal",
+          "pos": "adj.",
+          "meaning": "水平的，地平线的；n. 水平线(面)"
+        },
+        {
+          "word": "ingenious",
+          "pos": "adj.",
+          "meaning": "(人、头脑)灵巧的，机灵的；(主意等)别出心裁的；巧妙的"
+        },
+        {
+          "word": "ingredient",
+          "pos": "n.",
+          "meaning": "组成部分，成分"
+        },
+        {
+          "word": "initial",
+          "pos": "adj.",
+          "meaning": "最初的，开始的，开头的；n. (名字的)首字母"
+        },
+        {
+          "word": "initiate",
+          "pos": "vt.",
+          "meaning": "开始，发起；使初步了解；让…加入"
+        },
+        {
+          "word": "initiative",
+          "pos": "n.",
+          "meaning": "主动性(权)；进取心；【僻】n. 倡议，新方案"
+        },
+        {
+          "word": "local",
+          "pos": "adj.",
+          "meaning": "地方的，当地的；局部的"
+        },
+        {
+          "word": "locality",
+          "pos": "n.",
+          "meaning": "位置，地点"
+        },
+        {
+          "word": "locate",
+          "pos": "vt.",
+          "meaning": "找出…的准确位置；把…设置在，使坐落于"
+        },
+        {
+          "word": "location",
+          "pos": "n.",
+          "meaning": "位置，场所"
+        },
+        {
+          "word": "neglect",
+          "pos": "vt.",
+          "meaning": "/n. 忽视，忽略；疏忽，玩忽"
+        },
+        {
+          "word": "negligible",
+          "pos": "adj.",
+          "meaning": "可忽视的，微不足道的"
+        },
+        {
+          "word": "prescribe",
+          "pos": "v.",
+          "meaning": "规定，指定；开(药)，开处方"
+        },
+        {
+          "word": "prescription",
+          "pos": "n.",
+          "meaning": "药方，处方；开处方，开药；计划；建议；秘诀"
+        },
+        {
+          "word": "presence",
+          "pos": "n.",
+          "meaning": "出席，到场；存在"
+        },
+        {
+          "word": "present",
+          "pos": "vt.",
+          "meaning": "赠送，给予；提出，递交；呈现，表现；引见，介绍；adj. 出席的，到场的；现在的，目前的；n. 礼品，赠品；现在，目前"
+        },
+        {
+          "word": "presently",
+          "pos": "adv.",
+          "meaning": "一会儿，不久；现在，目前"
+        },
+        {
+          "word": "preserve",
+          "pos": "vt.",
+          "meaning": "保护，保存；【僻】n. (某群体)专有的活动"
+        },
+        {
+          "word": "preside",
+          "pos": "vi.",
+          "meaning": "(at, over) 主持，主管，担任(会议)主席；(over) 掌管，领导"
+        },
+        {
+          "word": "press",
+          "pos": "n.",
+          "meaning": "报刊；新闻界；出版社，印刷厂；报道，评论，舆论；按，挤，压；压力机；v. 按，挤，压；挤压，榨取；催促，逼迫"
+        },
+        {
+          "word": "pressure",
+          "pos": "n.",
+          "meaning": "压(力)；强制，压迫"
+        },
+        {
+          "word": "prestige",
+          "pos": "n.",
+          "meaning": "威望，威信；影响力"
+        },
+        {
+          "word": "presumably",
+          "pos": "adv.",
+          "meaning": "推测起来，大概"
+        },
+        {
+          "word": "presume",
+          "pos": "v.",
+          "meaning": "推测；假定，假设；认为，推定；冒昧，胆敢做某事"
+        },
+        {
+          "word": "prevent",
+          "pos": "vt.",
+          "meaning": "防止，预防"
+        },
+        {
+          "word": "previous",
+          "pos": "adj.",
+          "meaning": "先前的，以前的"
+        },
+        {
+          "word": "prey",
+          "pos": "n.",
+          "meaning": "被捕食的动物，捕获物；[喻]受损害者；牺牲品；v. (on/upon) 捕食；掠夺；折磨，损害"
+        },
+        {
+          "word": "reliable",
+          "pos": "adj.",
+          "meaning": "可靠的"
+        },
+        {
+          "word": "reliance",
+          "pos": "n.",
+          "meaning": "(on) 依靠，依赖"
+        },
+        {
+          "word": "religion",
+          "pos": "n.",
+          "meaning": "宗教，信仰；信念，信条"
+        },
+        {
+          "word": "religious",
+          "pos": "adj.",
+          "meaning": "宗教的，信教的；虔诚的"
+        },
+        {
+          "word": "rely",
+          "pos": "v.",
+          "meaning": "(on/upon) 依赖，依靠；信赖，信任"
+        },
+        {
+          "word": "straight",
+          "pos": "adj.",
+          "meaning": "直的，笔直的；整齐的，端正的；正直的；adv. 直接地；正直地，直率地"
+        },
+        {
+          "word": "straightforward",
+          "pos": "adj.",
+          "meaning": "正直的，坦率的；简单的"
+        },
+        {
+          "word": "strain",
+          "pos": "v.",
+          "meaning": "使紧张，尽力使用；拉紧，绷紧；使损伤，使过劳；n. 拉力，张力；努力，尽力；过度，极度紧张；损伤，劳损"
+        },
+        {
+          "word": "strategy",
+          "pos": "n.",
+          "meaning": "战略，策略"
+        },
+        {
+          "word": "strength",
+          "pos": "n.",
+          "meaning": "力量，力气；强度；长处，优势"
+        },
+        {
+          "word": "strengthen",
+          "pos": "vt.",
+          "meaning": "加强，巩固"
+        },
+        {
+          "word": "strenuous",
+          "pos": "adj.",
+          "meaning": "努力的；奋力的；顽强的；紧张的；艰辛的，费力的；繁重的"
+        },
+        {
+          "word": "transaction",
+          "pos": "n.",
+          "meaning": "办理，处理；交易，事务；(pl.) 会报，学报"
+        },
+        {
+          "word": "transfer",
+          "pos": "v.",
+          "meaning": "转移，调动；转让，让与；n. 迁移，转移；调动；【僻】n. 转变"
+        },
+        {
+          "word": "transform",
+          "pos": "v.",
+          "meaning": "改变，改造，变换，使改观"
+        },
+        {
+          "word": "transient",
+          "pos": "adj.",
+          "meaning": "短暂的，转瞬即逝的；临时的"
+        },
+        {
+          "word": "translation",
+          "pos": "n.",
+          "meaning": "翻译，译文，译本"
+        },
+        {
+          "word": "architect",
+          "pos": "n.",
+          "meaning": "建筑师，设计师；缔造者，创造者"
+        },
+        {
+          "word": "architecture",
+          "pos": "n.",
+          "meaning": "建筑学，建筑术；建筑风格，建筑式样；结构"
+        },
+        {
+          "word": "archive",
+          "pos": "n.",
+          "meaning": "档案，档案馆，档案室；v. 把……存档，把……归档"
+        },
+        {
+          "word": "area",
+          "pos": "n.",
+          "meaning": "地区，区域；范围，领域"
+        },
+        {
+          "word": "arena",
+          "pos": "n.",
+          "meaning": "圆形运动场，圆形剧场；斗争场所，竞争舞台，活动场所"
+        },
+        {
+          "word": "argue",
+          "pos": "v.",
+          "meaning": "争论，辩论；主张，说服"
+        },
+        {
+          "word": "argument",
+          "pos": "n.",
+          "meaning": "争论，辩论；论据，论点"
+        },
+        {
+          "word": "arise",
+          "pos": "v.",
+          "meaning": "形成，产生，出现；上升，升起；起立，起身"
+        },
+        {
+          "word": "arouse",
+          "pos": "vt.",
+          "meaning": "使……奋发；引起，唤起，激起；唤醒"
+        },
+        {
+          "word": "array",
+          "pos": "n.",
+          "meaning": "显眼的一系列，大量；排列，队形；vt. 部署(尤指兵力等)；穿着，打扮"
+        },
+        {
+          "word": "visible",
+          "pos": "adj.",
+          "meaning": "看得见的，可见的；明显的，有形的"
+        },
+        {
+          "word": "vision",
+          "pos": "n.",
+          "meaning": "视力，视觉；想象，幻想；目光，眼力"
+        },
+        {
+          "word": "visual",
+          "pos": "adj.",
+          "meaning": "看的，视觉的"
+        },
+        {
+          "word": "vital",
+          "pos": "adj.",
+          "meaning": "(有)生命力的；致命的，极其重要的"
+        },
+        {
+          "word": "vivid",
+          "pos": "adj.",
+          "meaning": "鲜艳的；生动的，栩栩如生的"
+        },
+        {
+          "word": "void",
+          "pos": "adj.",
+          "meaning": "空的；(of) 无效的；没有的，缺乏的"
+        },
+        {
+          "word": "volume",
+          "pos": "n.",
+          "meaning": "容积，体积；卷，册；音量，响度"
+        },
+        {
+          "word": "consequence",
+          "pos": "n.",
+          "meaning": "结果，后果；影响；重要性"
+        },
+        {
+          "word": "consequently",
+          "pos": "adv.",
+          "meaning": "因而，所以"
+        },
+        {
+          "word": "conservation",
+          "pos": "n.",
+          "meaning": "保存，保护，避免损失"
+        },
+        {
+          "word": "conservative",
+          "pos": "adj.",
+          "meaning": "保守的，守旧的；n. 保守主义者"
+        },
+        {
+          "word": "consider",
+          "pos": "v.",
+          "meaning": "考虑，细想；认为，把…看作；顾及，体谅"
+        },
+        {
+          "word": "considerable",
+          "pos": "adj.",
+          "meaning": "相当大(多)的，可观的"
+        },
+        {
+          "word": "considerate",
+          "pos": "adj.",
+          "meaning": "考虑周到的，体谅的"
+        },
+        {
+          "word": "consume",
+          "pos": "v.",
+          "meaning": "消耗，花费；吃，喝"
+        },
+        {
+          "word": "consumption",
+          "pos": "n.",
+          "meaning": "消费(量)；消耗；(医)肺结核，肺病"
+        },
+        {
+          "word": "dispute",
+          "pos": "v.",
+          "meaning": "争论，争执"
+        },
+        {
+          "word": "dissolve",
+          "pos": "v.",
+          "meaning": "溶解，融化；使溶解，使融化；解散，取消"
+        },
+        {
+          "word": "exchange",
+          "pos": "vt.",
+          "meaning": "交换，调换，兑换；交流，交易；n. 交换，互换，兑换；交流，交易；交换台，交易所"
+        },
+        {
+          "word": "exclude",
+          "pos": "vt.",
+          "meaning": "拒绝，把……排除在外，排斥"
+        },
+        {
+          "word": "exclusive",
+          "pos": "adj.",
+          "meaning": "专有的，独占的；除外的，排他的；(商品、商店的)高档的，豪华的，高级的；n. 独家新闻，独家报道"
+        }
+      ]
+    }
+  ]
+}

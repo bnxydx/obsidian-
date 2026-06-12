@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>必考词测试</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, 'Microsoft YaHei', sans-serif;
+  background: #1a1a2e;
+  color: #eee;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+.container { width: 100%; max-width: 640px; }
+
+/* header */
+h1 { text-align: center; font-size: 1.6em; margin-bottom: 6px; color: #e94560; }
+.subtitle { text-align: center; font-size: 0.85em; color: #666; margin-bottom: 24px; }
+
+/* settings card */
+.settings {
+  background: #16213e; border-radius: 12px; padding: 24px; margin-bottom: 24px;
+}
+.settings label { display: block; margin-bottom: 6px; font-size: 0.9em; color: #a0a0b0; }
+.settings input[type="number"] {
+  width: 100%; padding: 10px 14px; border: 1px solid #0f3460; border-radius: 8px;
+  background: #0f3460; color: #fff; font-size: 1em; margin-bottom: 16px;
+}
+.settings input:focus { outline: none; border-color: #e94560; }
+.mode-group { display: flex; gap: 8px; margin-bottom: 16px; }
+.mode-btn {
+  flex: 1; padding: 10px 6px; border: 2px solid #0f3460; border-radius: 8px;
+  background: transparent; color: #a0a0b0; cursor: pointer; font-size: 0.85em;
+  text-align: center; transition: all 0.2s;
+}
+.mode-btn:hover { border-color: #e94560; color: #e94560; }
+.mode-btn.active { border-color: #e94560; background: rgba(233,69,96,0.12); color: #e94560; }
+
+.btn {
+  width: 100%; padding: 12px; border: none; border-radius: 8px;
+  font-size: 1em; font-weight: 600; cursor: pointer; transition: all 0.2s;
+}
+.btn-start { background: #e94560; color: #fff; }
+.btn-start:hover { background: #d63851; }
+.btn-submit { background: #0f3460; color: #fff; margin-top: 10px; }
+.btn-submit:hover { background: #1a4a8a; }
+.btn-retry { background: #16213e; color: #a0a0b0; border: 1px solid #0f3460; margin-top: 16px; }
+.btn-retry:hover { border-color: #e94560; color: #e94560; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* stats bar */
+.stats {
+  display: flex; gap: 20px; justify-content: center; margin-bottom: 20px;
+  font-size: 0.9em; color: #a0a0b0;
+}
+.stats span { font-weight: 600; color: #e94560; }
+
+/* question card */
+.card {
+  background: #16213e; border-radius: 12px; padding: 28px; margin-bottom: 16px;
+  border-left: 4px solid #e94560; transition: border-color 0.3s;
+}
+.card.done { border-left-color: #4ecca3; }
+.card.done-wrong { border-left-color: #e94560; }
+.card .tag {
+  display: inline-block; font-size: 0.7em; padding: 2px 8px; border-radius: 4px;
+  margin-bottom: 10px; background: rgba(233,69,96,0.2); color: #e94560;
+}
+.card .tag.cn-en { background: rgba(78,204,163,0.2); color: #4ecca3; }
+.card .q-num { font-size: 0.8em; color: #555; margin-bottom: 8px; }
+.card .prompt {
+  font-size: 1.35em; font-weight: 700; margin-bottom: 16px; word-break: break-all;
+  line-height: 1.5;
+}
+.card .pos-tag {
+  display: inline-block; font-size: 0.75em; color: #888; margin-left: 8px;
+  background: #0f3460; padding: 2px 8px; border-radius: 4px;
+}
+.card input {
+  width: 100%; padding: 12px 14px; border: 1px solid #0f3460; border-radius: 8px;
+  background: #0f3460; color: #fff; font-size: 1em;
+}
+.card input:focus { outline: none; border-color: #e94560; }
+.card input.done { background: rgba(78,204,163,0.08); border-color: #4ecca3; }
+.card .feedback { font-size: 0.9em; margin-top: 10px; min-height: 22px; }
+.card .feedback.right { color: #4ecca3; }
+.card .feedback.wrong { color: #e94560; }
+
+/* result panel */
+.result {
+  background: #16213e; border-radius: 12px; padding: 32px; text-align: center;
+}
+.result h2 { font-size: 1.4em; margin-bottom: 16px; }
+.result .score { font-size: 3em; font-weight: 700; color: #e94560; margin-bottom: 8px; }
+.result .detail { font-size: 0.9em; color: #a0a0b0; margin-bottom: 20px; line-height: 1.8; }
+.result .wrong-list { text-align: left; margin-top: 16px; }
+.result .wrong-list h3 { font-size: 1em; color: #e94560; margin-bottom: 10px; }
+.result .wrong-item {
+  background: rgba(233,69,96,0.08); border-radius: 8px; padding: 12px 16px;
+  margin-bottom: 8px; font-size: 0.9em; line-height: 1.6;
+}
+.result .wrong-item .w { color: #eee; font-weight: 600; }
+.result .wrong-item .m { color: #4ecca3; }
+
+.hidden { display: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>必考词自测</h1>
+  <p class="subtitle">共 1851 词 · 英译中 / 中译英 / 混合模式</p>
+
+  <!-- 设置区 -->
+  <div class="settings" id="settingsPanel">
+    <label>测试数量（最多 100）</label>
+    <input type="number" id="wordCount" value="20" min="1" max="100" placeholder="输入单词数量">
+    <label>测试方向</label>
+    <div class="mode-group" id="modeGroup">
+      <button class="mode-btn active" data-mode="en2cn">英 → 中</button>
+      <button class="mode-btn" data-mode="cn2en">中 → 英</button>
+      <button class="mode-btn" data-mode="mix">混合</button>
+    </div>
+    <button class="btn btn-start" id="btnStart">开始测试</button>
+  </div>
+
+  <!-- 统计 -->
+  <div class="stats hidden" id="statsBar">
+    进度 <span id="progress">0/0</span>
+    &nbsp;|&nbsp; 正确 <span id="correctCount">0</span>
+    &nbsp;|&nbsp; 错误 <span id="wrongCount">0</span>
+  </div>
+
+  <!-- 题目区 -->
+  <div id="questionArea"></div>
+
+  <!-- 结果区 -->
+  <div class="result hidden" id="resultPanel">
+    <h2>测试完成</h2>
+    <div class="score" id="finalScore">0%</div>
+    <div class="detail" id="finalDetail"></div>
+    <div class="wrong-list" id="wrongList"></div>
+    <button class="btn btn-retry" onclick="location.reload()">再来一组</button>
+  </div>
+</div>
+
+<script src="all_words.js"></script>
+<script>
+(function() {
+  const words = window.ALL_WORDS || [];
+  let mode = 'en2cn';  // en2cn | cn2en | mix
+  let testWords = [];
+  let currentIdx = 0;
+  let correctNum = 0;
+  let wrongItems = [];
+
+  // Mode buttons
+  document.querySelectorAll('.mode-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      mode = this.dataset.mode;
+    });
+  });
+
+  // Start
+  document.getElementById('btnStart').addEventListener('click', startTest);
+
+  // Enter key: submit if not submitted, else go next
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+      const input = document.querySelector('#questionArea input:not(.done)');
+      const nextBtn = document.querySelector('#btnNext');
+      if (input) {
+        e.preventDefault();
+        handleSubmit();
+      } else if (nextBtn) {
+        e.preventDefault();
+        nextBtn.click();
+      }
+    }
+  });
+
+  function shuffle(arr) {
+    const a = [...arr];
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function startTest() {
+    const count = Math.min(parseInt(document.getElementById('wordCount').value) || 20, 100, words.length);
+    if (!words.length) { alert('单词数据未加载'); return; }
+
+    testWords = shuffle(words).slice(0, count);
+    currentIdx = 0;
+    correctNum = 0;
+    wrongItems = [];
+
+    document.getElementById('settingsPanel').classList.add('hidden');
+    document.getElementById('statsBar').classList.remove('hidden');
+    document.getElementById('resultPanel').classList.add('hidden');
+    updateStats();
+    renderQuestion();
+  }
+
+  function updateStats() {
+    document.getElementById('progress').textContent = currentIdx + '/' + testWords.length;
+    document.getElementById('correctCount').textContent = correctNum;
+    document.getElementById('wrongCount').textContent = testWords.length - correctNum;
+  }
+
+  function getQuestionDirection() {
+    if (mode === 'mix') return Math.random() < 0.5 ? 'en2cn' : 'cn2en';
+    return mode;
+  }
+
+  function matchAnswer(userAnswer, expected) {
+    // 宽松匹配：去空格、转小写（英文）、忽略标点
+    let u = userAnswer.trim().replace(/\s+/g, '');
+    let e = expected.trim().replace(/\s+/g, '');
+    // 对于中译英：忽略大小写，忽略常见标点
+    u = u.replace(/[，,;；.。、！!？?]/g, '');
+    e = e.replace(/[，,;；.。、！!？?]/g, '');
+    if (mode === 'cn2en' || (mode === 'mix' && /[a-zA-Z]/.test(userAnswer[0] || ''))) {
+      return u.toLowerCase() === e.toLowerCase();
+    }
+    // 中译英的反向也是宽松
+    return u === e || u.includes(e) || e.includes(u);
+  }
+
+  // 对于中文释义，允许部分匹配（取第一个分号或逗号前的核心含义）
+  function normalizeMeaning(m) {
+    // 取第一个 分号/句号/逗号/或 前的部分作为核心含义
+    let core = m.split(/[；;，,,]/)[0].trim();
+    return core;
+  }
+
+  function checkAnswer(userAnswer, w, direction) {
+    if (direction === 'en2cn') {
+      // 用户输入中文，匹配释义
+      let u = userAnswer.trim();
+      let coreMeaning = normalizeMeaning(w.meaning);
+      // 宽松匹配
+      if (u === w.meaning || u === coreMeaning) return true;
+      if (w.meaning.includes(u) && u.length >= 2) return true;
+      return false;
+    } else {
+      // 用户输入英文，匹配单词
+      let u = userAnswer.trim().toLowerCase();
+      return u === w.word.toLowerCase();
+    }
+  }
+
+  function renderQuestion() {
+    if (currentIdx >= testWords.length) {
+      showResult();
+      return;
+    }
+    const w = testWords[currentIdx];
+    const direction = getQuestionDirection();
+    w._direction = direction;
+
+    const area = document.getElementById('questionArea');
+    const isEn2Cn = direction === 'en2cn';
+
+    area.innerHTML = `
+      <div class="card" id="currentCard">
+        <div class="tag ${isEn2Cn ? '' : 'cn-en'}">${isEn2Cn ? '英 → 中' : '中 → 英'}</div>
+        <div class="q-num">第 ${currentIdx + 1} / ${testWords.length} 题</div>
+        <div class="prompt">
+          ${isEn2Cn ? w.word : w.meaning}
+          ${isEn2Cn && w.pos ? '<span class="pos-tag">' + w.pos + '</span>' : ''}
+        </div>
+        <input type="text" id="answerInput" placeholder="${isEn2Cn ? '输入中文释义' : '输入英文单词'}" autofocus>
+        <button class="btn btn-submit" id="btnSubmit">提交</button>
+        <div class="feedback" id="feedback"></div>
+      </div>
+    `;
+
+    document.getElementById('btnSubmit').addEventListener('click', handleSubmit);
+    document.getElementById('answerInput').focus();
+  }
+
+  function handleSubmit() {
+    const input = document.getElementById('answerInput');
+    const card = document.getElementById('currentCard');
+    const fb = document.getElementById('feedback');
+    const btn = document.getElementById('btnSubmit');
+    if (!input || input.classList.contains('done')) return;
+
+    const w = testWords[currentIdx];
+    const direction = w._direction;
+    const userAnswer = input.value;
+    const isCorrect = checkAnswer(userAnswer, w, direction);
+
+    input.classList.add('done');
+    input.disabled = true;
+    btn.classList.add('hidden');
+
+    if (isCorrect) {
+      card.classList.add('done');
+      fb.className = 'feedback right';
+      fb.textContent = '✓ 正确';
+      correctNum++;
+    } else {
+      card.classList.add('done-wrong');
+      fb.className = 'feedback wrong';
+      const correctAnswer = direction === 'en2cn' ? w.meaning : w.word;
+      fb.textContent = '✗ 错误，正确答案：' + correctAnswer;
+      wrongItems.push({ word: w, direction, userAnswer });
+    }
+
+    // 显示下一题按钮
+    const nextLabel = currentIdx + 1 >= testWords.length ? '查看结果' : '下一题 →';
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'btn btn-submit';
+    nextBtn.id = 'btnNext';
+    nextBtn.textContent = nextLabel;
+    nextBtn.addEventListener('click', function() {
+      currentIdx++;
+      updateStats();
+      if (currentIdx < testWords.length) {
+        renderQuestion();
+      } else {
+        showResult();
+      }
+    });
+    card.appendChild(nextBtn);
+    nextBtn.focus();
+
+    updateStats();
+  }
+
+  function showResult() {
+    document.getElementById('questionArea').innerHTML = '';
+    document.getElementById('resultPanel').classList.remove('hidden');
+    const pct = testWords.length > 0 ? Math.round(correctNum / testWords.length * 100) : 0;
+
+    let color = '#e94560';
+    if (pct >= 90) color = '#4ecca3';
+    else if (pct >= 70) color = '#f0a500';
+
+    document.getElementById('finalScore').style.color = color;
+    document.getElementById('finalScore').textContent = pct + '%';
+    document.getElementById('finalDetail').textContent =
+      '共 ' + testWords.length + ' 题 · 正确 ' + correctNum + ' · 错误 ' + (testWords.length - correctNum);
+
+    const wl = document.getElementById('wrongList');
+    if (wrongItems.length > 0) {
+      let html = '<h3>错题回顾</h3>';
+      wrongItems.forEach(item => {
+        html += '<div class="wrong-item">';
+        html += '<div><span class="w">' + item.word.word + '</span>';
+        if (item.word.pos) html += ' <span style="color:#888">' + item.word.pos + '</span>';
+        html += ' <span style="color:#555;font-size:0.8em">Unit ' + (item.word.unit || '?') + '</span></div>';
+        html += '<div class="m">' + item.word.meaning + '</div>';
+        html += '<div style="color:#e94560;margin-top:4px">你的答案：' + item.userAnswer + '</div>';
+        html += '</div>';
+      });
+      wl.innerHTML = html;
+    } else {
+      wl.innerHTML = '<p style="color:#4ecca3">全部正确，太强了！</p>';
+    }
+  }
+})();
+</script>
+</body>
+</html>
