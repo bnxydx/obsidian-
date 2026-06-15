@@ -1,0 +1,17 @@
+{
+  "author": "local",
+  "description": "输入一组英语单词，自动分组编成记忆小故事。每个故事提供中英混合版和纯英文版。适用于考研/四六级等单词记忆场景。",
+  "detail_describe": "将单词按语义自动分组\n每组编一个简短小故事\n中英混合版 + 纯英文版双格式\n确保所有单词都被覆盖\n单词在故事中加粗标记",
+  "display_description": "把单词编成小故事来记忆",
+  "display_name": "单词故事记忆法",
+  "is_downloaded": true,
+  "name": "word-story-memory",
+  "scope": ["main"],
+  "type": "学习工具",
+  "use_cases": [
+    "帮我把这些单词编成记忆小故事",
+    "用故事记单词",
+    "把Unit 16的单词变成故事"
+  ],
+  "version": "1.0.0"
+}
