@@ -10,6 +10,7 @@
 ```
 concordance展示所有出现过的上下文
 text1.concordance("an")
+
 ```
 
 
@@ -24,11 +25,21 @@ very = `so`, `pretty`, `too`, `rather`, `quite`
 text1.common_contexts(['a','very'])
 of_great was_good s_queer by_ heedfu was_calm is_curious had_littlewas clear
 ```
-
-
-
-
-
+ `concordance(word)`
+	- **作用：** 寻找某个特定词在文章中所有出现的地方，并把该词**及其前后一定长度的上下文**（一整行）打印出来。
+	- **大白话：** 看看这个词在文中具体是怎么被使用的。
+`similar(word)`（相似词识别）
+	- **作用：** 寻找在文本中与该词**具有相似上下文语境**的其他词。
+	- **大白话：** 找出哪些词经常和这个词出现在类似的位置。例如在“我吃__”、“你吃__”中，苹果、面包、米饭就是 similar 的。
+**`common_contexts(word_list)`（共同上下文）**
+- **作用：** 传入一个词的列表（如 `['monark', 'king']`），找出这两个或多个词**共同分享的上下文结构**。
+- **大白话：** 看看这两个词都能塞进哪些相同的句式结构里（输出形式如 `the_of`）。
+**`collocations()`（搭配词 / 词组）**
+- **作用：** 找出文本中频繁连续出现的**双词搭配（Bigrams）**，且这些搭配出现的频率显著高于随机组合。
+- **大白话：** 抓出文本里的习惯用语或固定搭配（如 "White House", "Artificial Intelligence"）。
+`set(text)`（集合去重）
+`sorted(sequence)`（排序）
+`FreqDist(text)`（词频分布计数器）它会扫描整个文本，自动统计**每一个词出现的总次数**
 
 
 
