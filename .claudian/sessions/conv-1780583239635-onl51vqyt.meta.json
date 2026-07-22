@@ -4,23 +4,25 @@
   "title": "Explain AI model identity",
   "titleGenerationStatus": "success",
   "createdAt": 1780583239636,
-  "updatedAt": 1780584034359,
-  "lastResponseAt": 1780584034359,
-  "sessionId": "0ae50f08-cf48-4264-aef6-6c4ca3b5fd42",
+  "updatedAt": 1784685401445,
+  "lastResponseAt": 1784685401445,
+  "sessionId": "191de114-f499-4d27-ae9a-518d9992a68c",
   "providerState": {
-    "providerSessionId": "0ae50f08-cf48-4264-aef6-6c4ca3b5fd42",
+    "providerSessionId": "191de114-f499-4d27-ae9a-518d9992a68c",
     "previousProviderSessionIds": [
-      "76639675-bf0e-49cc-a71b-dceb28dd5606"
+      "76639675-bf0e-49cc-a71b-dceb28dd5606",
+      "0ae50f08-cf48-4264-aef6-6c4ca3b5fd42",
+      "cb42333a-5887-4af6-aed3-a895d9c0b286"
     ]
   },
   "usage": {
-    "model": "glm-4.5-air",
-    "inputTokens": 196,
+    "model": "deepseek-v4-flash",
+    "inputTokens": 427,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 30164,
+    "cacheReadInputTokens": 23040,
     "contextWindow": 200000,
-    "contextTokens": 30360,
-    "percentage": 15,
+    "contextTokens": 23467,
+    "percentage": 12,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -4,5 +4,6 @@
   "textFontFamily": "",
   "enabledCssSnippets": [
     "dim-text"
-  ]
+  ],
+  "baseFontSize": 15
 }
