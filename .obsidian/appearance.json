@@ -3,7 +3,8 @@
   "baseFontSizeAction": true,
   "textFontFamily": "",
   "enabledCssSnippets": [
-    "dim-text"
+    "dim-text",
+    "center-h1"
   ],
   "baseFontSize": 15
 }

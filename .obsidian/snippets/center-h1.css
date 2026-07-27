@@ -1,0 +1,28 @@
+/* 一级标题居中并放大，二级标题蓝色，其他标题不变 */
+
+/* 编辑模式 / Live Preview */
+.cm-header-1,
+.HyperMD-header-1 {
+  text-align: center;
+  font-size: 2.2em !important;
+}
+
+/* 阅读模式 */
+.markdown-reading-view h1,
+.markdown-preview-view h1 {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+/* 二级标题蓝色 */
+/* 编辑模式 / Live Preview */
+.cm-header-2,
+.HyperMD-header-2 {
+  color: #3b82f6 !important;
+}
+
+/* 阅读模式 */
+.markdown-reading-view h2,
+.markdown-preview-view h2 {
+  color: #3b82f6;
+}
