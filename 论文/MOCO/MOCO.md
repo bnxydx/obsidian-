@@ -39,4 +39,4 @@ EMA 指数移动平均 ： 模型的更新受上次的模型影响大
 
 
 
-![Pasted image 20251112210950](Pasted image 20251112210950.png)
+![Pasted image 20251112210950](./picture/image-20251112210950.png)

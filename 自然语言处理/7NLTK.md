@@ -3,9 +3,9 @@
 2. 词性标注
 3. 命名实体识别
 4. 句法分析
-![](Pasted%20image%2020260707144940.png)
+![](./picture/image-20260707144940.png)
 
-![](Pasted%20image%2020260707145041.png)
+![](./picture/image-20260707145041.png)
 
 ```
 concordance展示所有出现过的上下文
