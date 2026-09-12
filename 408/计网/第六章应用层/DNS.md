@@ -1,4 +1,4 @@
-domain name system
+ domain name system
 域名系统
 
 DNS作用：把域名转化成ip
@@ -27,7 +27,7 @@ DNS作用：把域名转化成ip
   - **国家（地区）顶级域名（nTLD）**：如 `.cn`、`.us`、`.uk`
   - **通用顶级域名（gTLD）**：如 `.com`、`.net`、`.org`、`.edu`、`.gov`
   - **基础结构域名（arpa）**：用于 **反向域名解析**（IP → 域名）
-
+![](Pasted%20image%2020260909130204.png)
 
 > 域名层次结构呈"**顶级域 → 二级域 → 三级域 → …**"的倒置树状，每一级域名由上一级授权管理。以 `www.csksoyan.com` 为例：**`com` 为顶级域名、`csksoyan` 为二级域名、`www` 为三级域名**（图 6.3，王道教材）。
 
