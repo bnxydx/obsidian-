@@ -10,6 +10,7 @@ predictabliity预测
 involvement投资
 
 fragile **脆弱**
+acutely 强烈的 = very
 insatiable**不满足**
 appetite胃口
 foresee**遇见**
