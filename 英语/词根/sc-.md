@@ -16,3 +16,6 @@ scale 规模
 - **scornfully** /ˈskɔːrnfəli/
     - _adv._ 轻蔑地，鄙夷地
 
+## sec
+- **secure**（形容词/动词：安全的、稳固的；保卫）
+- **security**（名词：安全、防卫、保安）
