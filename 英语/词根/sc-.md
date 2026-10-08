@@ -6,7 +6,7 @@ scale 规模
     - _n._ 恐慌，惊吓
 - **scary** /ˈskeri/
     - _adj._ 吓人的，可怕的
-
+- **scarcity**缺乏、不足
 ## sco
 - **scorn** /skɔːrn/
     - _n._ 轻蔑，蔑视，鄙视（例：_pour scorn on..._ 嘲笑/鄙视某事）
