@@ -102,3 +102,5 @@ $$\text{可导} \Rightarrow \text{连续} \Rightarrow \text{极限存在}$$导�
 =>函数必然连续
 =>会出现尖点或
 
+
+
