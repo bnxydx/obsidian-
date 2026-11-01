@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>考研英语二 (2010-2026) 核心词汇背诵系统</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-icon">考</div>
+        <div>
+          <div class="brand-title">考研英语二核心词汇</div>
+          <div class="brand-subtitle">2010—2026 真题核心词 · 智能循环背诵</div>
+        </div>
+      </div>
+      <div class="nav-actions">
+        <a href="mobile.html" class="btn-icon" title="切换到手机触屏专用版" style="text-decoration:none; font-size:0.85rem; font-weight:600; width:auto; padding:0 12px; gap:4px; display:inline-flex;">
+          📱 手机触屏版
+        </a>
+        <button id="btnOpenBrowse" class="btn-icon" title="词库总览与检索">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button id="themeToggleBtn" class="btn-icon" title="切换深浅主题">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 主容器 -->
+  <main class="main-content">
+    
+    <!-- 1. 年份与篇章筛选面板 -->
+    <section id="filterCard" class="filter-card">
+      <div class="filter-header">
+        <div class="filter-title">
+          <span>🎯 选择背诵范围</span>
+          <span id="filterCountBadge" class="badge-count">加载中...</span>
+        </div>
+      </div>
+
+      <div class="filter-grid" style="grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));">
+        <div class="filter-group">
+          <label class="filter-label" for="yearSelect">① 年份选择</label>
+          <select id="yearSelect" class="filter-select">
+            <!-- 动态生成 2026 到 2010 -->
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label" for="sectionSelect">② 题型 / 篇章选择</label>
+          <select id="sectionSelect" class="filter-select">
+            <!-- 动态生成完形、阅读Text1~4、新题型、翻译与写作 -->
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label">③ 出词顺序设置</label>
+          <div class="order-toggle-group">
+            <label class="order-option active" id="labelShuffle">
+              <input type="radio" name="orderMode" id="orderShuffle" value="shuffle" checked>
+              <span>🔀 乱序背诵</span>
+            </label>
+            <label class="order-option" id="labelSequence">
+              <input type="radio" name="orderMode" id="orderSequence" value="sequence">
+              <span>🔢 顺序背诵</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-controls">
+        <div style="display:flex; flex-wrap:wrap; gap:16px; align-items:center;">
+          <label class="checkbox-label">
+            <input type="checkbox" id="autoSpeakCheck" checked>
+            <span>显示单词时自动发音</span>
+          </label>
+          <span id="orderModeHint" style="font-size:0.83rem; color:var(--text-muted); background:var(--bg-subtle); padding:4px 10px; border-radius:6px;">
+            当前模式: <strong style="color:var(--primary)">🔀 随机乱序背诵</strong> (打乱顺序测试记忆)
+          </span>
+        </div>
+
+        <button id="startBtn" class="btn-start">
+          <span>开始背诵</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- 2. 背诵交互主界面 (默认隐藏) -->
+    <section id="recitationView" class="recitation-view hidden">
+      <!-- 进度指示条 -->
+      <div class="status-bar">
+        <div class="status-stats">
+          <div class="stat-item">
+            <span class="stat-dot dot-total"></span>
+            <span>当前范围总词数: <span id="statusTotal" class="stat-val">0</span></span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-dot dot-remembered"></span>
+            <span>已记住: <span id="statusRemembered" class="stat-val" style="color:var(--success)">0</span></span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-dot dot-remaining"></span>
+            <span>剩余待记: <span id="statusRemaining" class="stat-val" style="color:var(--danger)">0</span></span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-dot dot-group"></span>
+            <span id="statusGroup" style="font-weight:600; color:var(--text-muted)">第 1 组 (0/10)</span>
+          </div>
+        </div>
+        <div class="progress-track">
+          <div id="progressBar" class="progress-fill"></div>
+        </div>
+      </div>
+
+      <!-- 核心卡片 -->
+      <div id="flashcard" class="flashcard">
+        <div class="card-tags">
+          <span id="tagYear" class="tag-year">2026 年</span>
+          <span id="tagSection" class="tag-section">传统阅读 Text 1</span>
+          <span id="tagOrderMode" class="order-mode-tag">🔀 乱序模式</span>
+        </div>
+
+        <div class="word-display">
+          <h1 id="wordTitle" class="word-title" title="点击发音">loading...</h1>
+          <div class="word-meta">
+            <button id="speakBtn" class="btn-speak" title="朗读单词 (快捷键 V)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 详细答案展开面板 (提问态隐藏) -->
+        <div id="answerPanel" class="answer-panel hidden">
+          <div>
+            <span id="answerPos" class="answer-pos">n.</span>
+            <span id="answerTrans" class="answer-trans">释义</span>
+          </div>
+          <div id="answerExtra" class="answer-extra">题型注释</div>
+        </div>
+      </div>
+
+      <!-- 操作按钮区域 -->
+      <!-- 阶段 1: 提问态操作 -->
+      <div id="actionsQuestion" class="recitation-actions">
+        <button id="btnRemember" class="btn-choice btn-remember">
+          <span>记得</span>
+          <span class="key-hint">快捷键 1 / J</span>
+        </button>
+        <button id="btnForgot" class="btn-choice btn-forgot">
+          <span>不记得</span>
+          <span class="key-hint">快捷键 2 / K / 空格</span>
+        </button>
+      </div>
+
+      <!-- 阶段 2: 选了“记得”后的二次判定操作 -->
+      <div id="actionsAnswerRemember" class="recitation-actions hidden">
+        <button id="btnMistake" class="btn-choice btn-mistake">
+          <span>记错了 (放回重背)</span>
+          <span class="key-hint">快捷键 2 / 3 / K</span>
+        </button>
+        <button id="btnNextCorrect" class="btn-choice btn-next-correct">
+          <span>确实记住了 ➔</span>
+          <span class="key-hint">快捷键 1 / 空格 / 回车</span>
+        </button>
+      </div>
+
+      <!-- 阶段 2: 选了“不记得”后的继续操作 -->
+      <div id="actionsAnswerForgot" class="recitation-actions hidden">
+        <button id="btnNextReview" class="btn-choice btn-next-review">
+          <span>没记住 (放回复习队列) ➔</span>
+          <span class="key-hint">快捷键 空格 / 回车</span>
+        </button>
+      </div>
+
+      <!-- 快捷键说明底栏 -->
+      <div class="shortcuts-tip">
+        提示：按键盘 <kbd class="key-kbd">1</kbd> 记得，<kbd class="key-kbd">2</kbd> 不记得，<kbd class="key-kbd">空格</kbd> 翻开/下一个，<kbd class="key-kbd">V</kbd> 发音
+      </div>
+    </section>
+
+    <!-- 3. 本轮全部背完通关结算卡片 (默认隐藏) -->
+    <section id="celebrateView" class="celebrate-card hidden">
+      <div class="celebrate-icon">🎉</div>
+      <h2 class="celebrate-title">太棒了！本轮单词全部掌握！</h2>
+      <p class="celebrate-desc">恭喜你，所选范围内的所有核心真题词汇已经全部攻克并记住！</p>
+      
+      <div class="celebrate-stats">
+        <div class="c-stat-box">
+          <span id="cStatTotal" class="c-stat-num">0</span>
+          <span class="c-stat-label">背诵单词总数</span>
+        </div>
+        <div class="c-stat-box">
+          <span id="cStatAccuracy" class="c-stat-num">100%</span>
+          <span class="c-stat-label">一次记忆率</span>
+        </div>
+        <div class="c-stat-box">
+          <span id="cStatTime" class="c-stat-num">0s</span>
+          <span class="c-stat-label">学习总耗时</span>
+        </div>
+      </div>
+
+      <div style="display:flex; gap:16px; margin-top:12px;">
+        <button id="btnRestartSession" class="btn-start" style="padding:12px 24px;">再来一轮巩固</button>
+        <button id="btnChangeFilter" class="btn-choice" style="background:var(--bg-subtle); color:var(--text-main); border:1px solid var(--border); padding:12px 24px;">选择其他年份/篇章</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 4. 每十个一组阶段小结 Modal 弹窗 -->
+  <div id="summaryModal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <span id="summaryGroupBadge" class="modal-badge-group">第 1 组完成 (10 词回顾)</span>
+          <span class="modal-title">📝 阶段自测小结</span>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <table class="summary-table">
+          <thead>
+            <tr style="text-align:left; color:var(--text-muted); font-size:0.8rem;">
+              <th style="padding:6px 8px; width:32px;">#</th>
+              <th style="padding:6px 8px;">单词 / 短语</th>
+              <th style="padding:6px 8px;">词性与释义</th>
+              <th style="padding:6px 8px; text-align:right;">状态</th>
+            </tr>
+          </thead>
+          <tbody id="summaryTableBody">
+            <!-- 动态渲染这10个单词 -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="modal-footer">
+        <button id="summaryContinueBtn" class="btn-modal-continue">
+          <span>继续背诵下一组 ➔</span>
+          <span style="font-size:0.75rem; opacity:0.8;">(Enter / 空格)</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. 词汇库完整检索浏览 Modal 弹窗 -->
+  <div id="browseModal" class="modal-overlay hidden">
+    <div class="modal-card" style="max-width:800px;">
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <span class="modal-title">📖 考研英语二 (2010-2026) 完整真题词库</span>
+          <span id="browseCount" class="badge-count" style="margin-left:8px;">共 4385 词</span>
+        </div>
+        <button id="btnCloseBrowse" class="btn-icon" style="width:30px; height:30px;">✕</button>
+      </div>
+
+      <div class="modal-body wordlist-modal-body">
+        <input type="text" id="browseSearch" class="wordlist-search" placeholder="输入英文单词、中文释义、年份或题型进行即时检索...">
+        <table class="summary-table">
+          <thead>
+            <tr style="text-align:left; color:var(--text-muted); font-size:0.8rem;">
+              <th style="padding:6px 8px; width:36px;">#</th>
+              <th style="padding:6px 8px; width:35%;">单词 / 短语</th>
+              <th style="padding:6px 8px;">年份 · 篇章 · 释义</th>
+            </tr>
+          </thead>
+          <tbody id="browseTableBody">
+            <!-- 动态检索填充 -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- 引入词库数据与核心脚本 -->
+  <script src="words_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
